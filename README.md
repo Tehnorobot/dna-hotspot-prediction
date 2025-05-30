@@ -45,7 +45,7 @@ Before running the pipeline, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[YOUR_REPOSITORY_URL]](https://github.com/Tehnorobot/dna-hotspot-prediction)
+    git clone https://github.com/Tehnorobot/dna-hotspot-prediction
     cd dna-hotspot-prediction
     ```
 2.  **Create Conda environments:**
