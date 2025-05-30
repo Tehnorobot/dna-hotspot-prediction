@@ -1,0 +1,61 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-importer-0.026-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Importer/.packlist",
+    "lib/perl5/site_perl/Importer.pm",
+    "man/man3/Importer.3"
+  ],
+  "fn": "perl-importer-0.026-pl5321hdfd78af_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-importer-0.026-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "3188368f1c0b76ee2a72447aa63d141f",
+  "name": "perl-importer",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-importer-0.026-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Importer/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-importer_1644513808617/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "183c9e5f324b60634001fe4d343117788c71f7477364131177b204a883f92a6a",
+        "sha256_in_prefix": "9e67e57d0efd10b07924862488f7c787e21646ca12d821a57e968c95edb34331",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/perl5/site_perl/Importer.pm",
+        "path_type": "hardlink",
+        "sha256": "2221c72a5946707277935c528f45bdf1d61288638e8a01311b66808edccf5215",
+        "sha256_in_prefix": "2221c72a5946707277935c528f45bdf1d61288638e8a01311b66808edccf5215",
+        "size_in_bytes": 42529
+      },
+      {
+        "_path": "man/man3/Importer.3",
+        "path_type": "hardlink",
+        "sha256": "fa115edcb60e4f5f40f01e65eb658070e09bdb7b1628e10c3679b9ed5542ee48",
+        "sha256_in_prefix": "fa115edcb60e4f5f40f01e65eb658070e09bdb7b1628e10c3679b9ed5542ee48",
+        "size_in_bytes": 31008
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5892f81f5b40272d2d56d6dcbb7e91aede1c24eb889fc8ab77a2c0bf0b2617b6",
+  "size": 23555,
+  "subdir": "noarch",
+  "timestamp": 1644514043000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-importer-0.026-pl5321hdfd78af_0.tar.bz2",
+  "version": "0.026"
+}

@@ -1,0 +1,151 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl-carp",
+    "perl-importer",
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-term-table-0.024-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Term/Table/.packlist",
+    "lib/perl5/site_perl/Term/Table.pm",
+    "lib/perl5/site_perl/Term/Table/Cell.pm",
+    "lib/perl5/site_perl/Term/Table/CellStack.pm",
+    "lib/perl5/site_perl/Term/Table/HashBase.pm",
+    "lib/perl5/site_perl/Term/Table/LineBreak.pm",
+    "lib/perl5/site_perl/Term/Table/Spacer.pm",
+    "lib/perl5/site_perl/Term/Table/Util.pm",
+    "man/man3/Term::Table.3",
+    "man/man3/Term::Table::Cell.3",
+    "man/man3/Term::Table::CellStack.3",
+    "man/man3/Term::Table::HashBase.3",
+    "man/man3/Term::Table::LineBreak.3",
+    "man/man3/Term::Table::Util.3"
+  ],
+  "fn": "perl-term-table-0.024-pl5321hdfd78af_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-term-table-0.024-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "a1a7fa5cdba18a5409274e7b40f59c4f",
+  "name": "perl-term-table",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-term-table-0.024-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Term/Table/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-term-table_1735359841284/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "913c920dbffc0cac0ec5a612b9266ff236ed23f73a9b2b7775aa2032739e06fe",
+        "sha256_in_prefix": "75e26c95ea2aace8f1cd2fe79fc8d92c335d1b539924a7567a2ccb04f6869408",
+        "size_in_bytes": 4577
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table.pm",
+        "path_type": "hardlink",
+        "sha256": "ffcada8eae3ed8b63a1cf120c956b36954ca8986e869b6d3b9caa52025a4a9a2",
+        "sha256_in_prefix": "ffcada8eae3ed8b63a1cf120c956b36954ca8986e869b6d3b9caa52025a4a9a2",
+        "size_in_bytes": 13028
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/Cell.pm",
+        "path_type": "hardlink",
+        "sha256": "76dd1949c72a38f8f75bea225f6852a8df5114bd327d232556aa72abb422f702",
+        "sha256_in_prefix": "76dd1949c72a38f8f75bea225f6852a8df5114bd327d232556aa72abb422f702",
+        "size_in_bytes": 2983
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/CellStack.pm",
+        "path_type": "hardlink",
+        "sha256": "65442cc2c0fd3122d2a8fa1e1712f2c31e3d4f5720f08f56e031e5fb760913c9",
+        "sha256_in_prefix": "65442cc2c0fd3122d2a8fa1e1712f2c31e3d4f5720f08f56e031e5fb760913c9",
+        "size_in_bytes": 2223
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/HashBase.pm",
+        "path_type": "hardlink",
+        "sha256": "a2db95421677b0768682bb46e518445a398b81ddb1a37fcf472d986db9c60c21",
+        "sha256_in_prefix": "a2db95421677b0768682bb46e518445a398b81ddb1a37fcf472d986db9c60c21",
+        "size_in_bytes": 13218
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/LineBreak.pm",
+        "path_type": "hardlink",
+        "sha256": "d10521db922f15d83a0bf8028cb1d869a86377d90d01ca9637f892dbaa600852",
+        "sha256_in_prefix": "d10521db922f15d83a0bf8028cb1d869a86377d90d01ca9637f892dbaa600852",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/Spacer.pm",
+        "path_type": "hardlink",
+        "sha256": "46c697364510f86fb29dc7535ba09b65eab62ee9773ae8c8042c79aa24c85baa",
+        "sha256_in_prefix": "46c697364510f86fb29dc7535ba09b65eab62ee9773ae8c8042c79aa24c85baa",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/perl5/site_perl/Term/Table/Util.pm",
+        "path_type": "hardlink",
+        "sha256": "1d09a2698bc478b119bdeda193b8ab173adf24c334a83559021e36334fff9f8b",
+        "sha256_in_prefix": "1d09a2698bc478b119bdeda193b8ab173adf24c334a83559021e36334fff9f8b",
+        "size_in_bytes": 4240
+      },
+      {
+        "_path": "man/man3/Term::Table.3",
+        "path_type": "hardlink",
+        "sha256": "ca8767c4d1991292766c12147e51dc2fc092418ef003a36ab8fd02b4effef7a6",
+        "sha256_in_prefix": "ca8767c4d1991292766c12147e51dc2fc092418ef003a36ab8fd02b4effef7a6",
+        "size_in_bytes": 9933
+      },
+      {
+        "_path": "man/man3/Term::Table::Cell.3",
+        "path_type": "hardlink",
+        "sha256": "15c1b7309480d3ca25ab6fd2b97e76c485b27b924e34b3225018f3643ef99056",
+        "sha256_in_prefix": "15c1b7309480d3ca25ab6fd2b97e76c485b27b924e34b3225018f3643ef99056",
+        "size_in_bytes": 3010
+      },
+      {
+        "_path": "man/man3/Term::Table::CellStack.3",
+        "path_type": "hardlink",
+        "sha256": "309b0539eb0c94e4aa787b547ce09073c99db38126ff859a6928d1697a12b184",
+        "sha256_in_prefix": "309b0539eb0c94e4aa787b547ce09073c99db38126ff859a6928d1697a12b184",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "man/man3/Term::Table::HashBase.3",
+        "path_type": "hardlink",
+        "sha256": "1008a2729f5c289762db756e25b31a056290da60355e69de9361c0863b255d96",
+        "sha256_in_prefix": "1008a2729f5c289762db756e25b31a056290da60355e69de9361c0863b255d96",
+        "size_in_bytes": 12438
+      },
+      {
+        "_path": "man/man3/Term::Table::LineBreak.3",
+        "path_type": "hardlink",
+        "sha256": "7f62e928f20e5362d92770033af0322d9ed060c60bf860a9740f39a7b491899f",
+        "sha256_in_prefix": "7f62e928f20e5362d92770033af0322d9ed060c60bf860a9740f39a7b491899f",
+        "size_in_bytes": 3324
+      },
+      {
+        "_path": "man/man3/Term::Table::Util.3",
+        "path_type": "hardlink",
+        "sha256": "50130424c6f5c39a1e72021e6ea9daef6d0c4ceebbffe1e8c380a0fa8e7a76ce",
+        "sha256_in_prefix": "50130424c6f5c39a1e72021e6ea9daef6d0c4ceebbffe1e8c380a0fa8e7a76ce",
+        "size_in_bytes": 4178
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c08bbc92c0278d2189e8d1ae5a8260d8c7c07f8772b88e65bb977140e3cd169d",
+  "size": 24686,
+  "subdir": "noarch",
+  "timestamp": 1735359943000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-term-table-0.024-pl5321hdfd78af_0.tar.bz2",
+  "version": "0.024"
+}

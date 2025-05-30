@@ -1,0 +1,5 @@
+#!/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/bin/python3.12
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

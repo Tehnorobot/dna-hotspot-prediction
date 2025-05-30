@@ -1,0 +1,45 @@
+{
+  "build": "h15996b6_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.12,<1.3.0a0",
+    "zlib >=1.2.12,<1.3.0a0",
+    "hdf5 >=1.12.1,<1.12.2.0a0"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/kallisto-0.48.0-h15996b6_2",
+  "files": [
+    "bin/kallisto"
+  ],
+  "fn": "kallisto-0.48.0-h15996b6_2.tar.bz2",
+  "license": "BSD_2_Clause",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/kallisto-0.48.0-h15996b6_2",
+    "type": 1
+  },
+  "md5": "b098a9221b0cdd91b67677eee89ae0e4",
+  "name": "kallisto",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/kallisto-0.48.0-h15996b6_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/kallisto",
+        "path_type": "hardlink",
+        "sha256": "3776d173adec2f5563cac7b37974c6b060e87121e828ae5c38e2552111691a31",
+        "sha256_in_prefix": "3776d173adec2f5563cac7b37974c6b060e87121e828ae5c38e2552111691a31",
+        "size_in_bytes": 1438320
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "kallisto=0.48.0",
+  "sha256": "5a05e40de30897a830c7ffbca9602349af3b875514c0dd4d6df028922519c97e",
+  "size": 588622,
+  "subdir": "linux-64",
+  "timestamp": 1663253755000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/kallisto-0.48.0-h15996b6_2.tar.bz2",
+  "version": "0.48.0"
+}

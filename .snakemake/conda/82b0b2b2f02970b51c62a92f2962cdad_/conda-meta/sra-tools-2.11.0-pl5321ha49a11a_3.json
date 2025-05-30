@@ -1,0 +1,1254 @@
+{
+  "build": "pl5321ha49a11a_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "perl-uri",
+    "perl-xml-libxml",
+    "ncbi-ngs-sdk",
+    "ca-certificates",
+    "ossuuid",
+    "libgcc-ng >=10.3.0",
+    "libstdcxx-ng >=10.3.0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5",
+    "hdf5 >=1.10.6,<1.10.7.0a0",
+    "libxml2 >=2.9.12,<2.10.0a0"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/sra-tools-2.11.0-pl5321ha49a11a_3",
+  "files": [
+    "bin/.sra-tools-post-link.sh",
+    "bin/abi-dump",
+    "bin/abi-dump.2",
+    "bin/abi-dump.2.11.0",
+    "bin/abi-load",
+    "bin/abi-load.2",
+    "bin/abi-load.2.11.0",
+    "bin/align-cache",
+    "bin/align-cache.2",
+    "bin/align-cache.2.11.0",
+    "bin/align-info",
+    "bin/align-info.2",
+    "bin/align-info.2.11.0",
+    "bin/bam-load",
+    "bin/bam-load.2",
+    "bin/bam-load.2.11.0",
+    "bin/cache-mgr",
+    "bin/cache-mgr.2",
+    "bin/cache-mgr.2.11.0",
+    "bin/ccextract",
+    "bin/ccextract.2",
+    "bin/ccextract.2.11.0",
+    "bin/cg-load",
+    "bin/cg-load.2",
+    "bin/cg-load.2.11.0",
+    "bin/fasterq-dump",
+    "bin/fasterq-dump-orig",
+    "bin/fasterq-dump-orig.2.11.0",
+    "bin/fasterq-dump.2",
+    "bin/fasterq-dump.2.11.0",
+    "bin/fastq-dump",
+    "bin/fastq-dump-orig",
+    "bin/fastq-dump-orig.2.11.0",
+    "bin/fastq-dump.2",
+    "bin/fastq-dump.2.11.0",
+    "bin/fastq-load",
+    "bin/fastq-load.2",
+    "bin/fastq-load.2.11.0",
+    "bin/helicos-load",
+    "bin/helicos-load.2",
+    "bin/helicos-load.2.11.0",
+    "bin/illumina-dump",
+    "bin/illumina-dump.2",
+    "bin/illumina-dump.2.11.0",
+    "bin/illumina-load",
+    "bin/illumina-load.2",
+    "bin/illumina-load.2.11.0",
+    "bin/kar",
+    "bin/kar.2",
+    "bin/kar.2.11.0",
+    "bin/kdbmeta",
+    "bin/kdbmeta.2",
+    "bin/kdbmeta.2.11.0",
+    "bin/kget",
+    "bin/kget.2",
+    "bin/kget.2.11.0",
+    "bin/latf-load",
+    "bin/latf-load.2",
+    "bin/latf-load.2.11.0",
+    "bin/magic",
+    "bin/md5cp",
+    "bin/md5cp.2",
+    "bin/md5cp.2.11.0",
+    "bin/ncbi/certs.kfg",
+    "bin/ncbi/default.kfg",
+    "bin/ncbi/vdb-copy.kfg",
+    "bin/pacbio-load",
+    "bin/pacbio-load.2",
+    "bin/pacbio-load.2.11.0",
+    "bin/pacbio-loadxml",
+    "bin/pacbio-loadxml.2",
+    "bin/pacbio-loadxml.2.11.0",
+    "bin/prefetch",
+    "bin/prefetch-orig",
+    "bin/prefetch-orig.2.11.0",
+    "bin/prefetch.2",
+    "bin/prefetch.2.11.0",
+    "bin/rcexplain",
+    "bin/rcexplain.2",
+    "bin/rcexplain.2.11.0",
+    "bin/read-filter-redact",
+    "bin/read-filter-redact.2",
+    "bin/read-filter-redact.2.11.0",
+    "bin/sam-dump",
+    "bin/sam-dump-orig",
+    "bin/sam-dump-orig.2.11.0",
+    "bin/sam-dump.2",
+    "bin/sam-dump.2.11.0",
+    "bin/sff-dump",
+    "bin/sff-dump.2",
+    "bin/sff-dump.2.11.0",
+    "bin/sff-load",
+    "bin/sff-load.2",
+    "bin/sff-load.2.11.0",
+    "bin/sra-pileup",
+    "bin/sra-pileup-orig",
+    "bin/sra-pileup-orig.2.11.0",
+    "bin/sra-pileup.2",
+    "bin/sra-pileup.2.11.0",
+    "bin/sra-sort",
+    "bin/sra-sort-cg",
+    "bin/sra-sort-cg.2",
+    "bin/sra-sort-cg.2.11.0",
+    "bin/sra-sort.2",
+    "bin/sra-sort.2.11.0",
+    "bin/sra-stat",
+    "bin/sra-stat.2",
+    "bin/sra-stat.2.11.0",
+    "bin/srapath",
+    "bin/srapath-orig",
+    "bin/srapath-orig.2.11.0",
+    "bin/srapath.2",
+    "bin/srapath.2.11.0",
+    "bin/sratools",
+    "bin/sratools.2",
+    "bin/sratools.2.11.0",
+    "bin/srf-load",
+    "bin/srf-load.2",
+    "bin/srf-load.2.11.0",
+    "bin/test-sra",
+    "bin/test-sra.2",
+    "bin/test-sra.2.11.0",
+    "bin/vdb-config",
+    "bin/vdb-config.2",
+    "bin/vdb-config.2.11.0",
+    "bin/vdb-copy",
+    "bin/vdb-copy.2",
+    "bin/vdb-copy.2.11.0",
+    "bin/vdb-decrypt",
+    "bin/vdb-decrypt.2",
+    "bin/vdb-decrypt.2.11.0",
+    "bin/vdb-diff",
+    "bin/vdb-diff.2",
+    "bin/vdb-diff.2.11.0",
+    "bin/vdb-dump",
+    "bin/vdb-dump-orig.2.11.0",
+    "bin/vdb-dump.2",
+    "bin/vdb-dump.2.11.0",
+    "bin/vdb-encrypt",
+    "bin/vdb-encrypt.2",
+    "bin/vdb-encrypt.2.11.0",
+    "bin/vdb-lock",
+    "bin/vdb-lock.2",
+    "bin/vdb-lock.2.11.0",
+    "bin/vdb-passwd",
+    "bin/vdb-passwd.2",
+    "bin/vdb-passwd.2.11.0",
+    "bin/vdb-unlock",
+    "bin/vdb-unlock.2",
+    "bin/vdb-unlock.2.11.0",
+    "bin/vdb-validate",
+    "bin/vdb-validate.2",
+    "bin/vdb-validate.2.11.0"
+  ],
+  "fn": "sra-tools-2.11.0-pl5321ha49a11a_3.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/sra-tools-2.11.0-pl5321ha49a11a_3",
+    "type": 1
+  },
+  "md5": "4f8a3f1ff67ba8da15584f7f8a20a209",
+  "name": "sra-tools",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/sra-tools-2.11.0-pl5321ha49a11a_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.sra-tools-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "c568506fd254a24b16911e6256ca2f3e0a5c4066b62565d87059d22cef1c2c09",
+        "sha256_in_prefix": "c568506fd254a24b16911e6256ca2f3e0a5c4066b62565d87059d22cef1c2c09",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "bin/abi-dump",
+        "path_type": "softlink",
+        "sha256": "43deb81140d947e3cdb064f089ae3a1048093f9521de57a576ff4a88935f28e8",
+        "size_in_bytes": 3042176
+      },
+      {
+        "_path": "bin/abi-dump.2",
+        "path_type": "softlink",
+        "sha256": "43deb81140d947e3cdb064f089ae3a1048093f9521de57a576ff4a88935f28e8",
+        "size_in_bytes": 3042176
+      },
+      {
+        "_path": "bin/abi-dump.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "43deb81140d947e3cdb064f089ae3a1048093f9521de57a576ff4a88935f28e8",
+        "sha256_in_prefix": "897ef778373fe75e97131771742041d35168d9f6061403607ef875185c1ae07c",
+        "size_in_bytes": 3042176
+      },
+      {
+        "_path": "bin/abi-load",
+        "path_type": "softlink",
+        "sha256": "045af65a0d2ae2f1d6efa195d51da8d9049d0d7a9d9d59841f6cbaf071d1e9e9",
+        "size_in_bytes": 3236272
+      },
+      {
+        "_path": "bin/abi-load.2",
+        "path_type": "softlink",
+        "sha256": "045af65a0d2ae2f1d6efa195d51da8d9049d0d7a9d9d59841f6cbaf071d1e9e9",
+        "size_in_bytes": 3236272
+      },
+      {
+        "_path": "bin/abi-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "045af65a0d2ae2f1d6efa195d51da8d9049d0d7a9d9d59841f6cbaf071d1e9e9",
+        "sha256_in_prefix": "205e86a76ba9aa58673a437a9f1acdf760e891a90764af62afa56c61ee5ef03e",
+        "size_in_bytes": 3236272
+      },
+      {
+        "_path": "bin/align-cache",
+        "path_type": "softlink",
+        "sha256": "2a55f2cbfa6a9275004ea19e2c8e6249ba3140e38e6f707ca8f138db5a33925c",
+        "size_in_bytes": 9412808
+      },
+      {
+        "_path": "bin/align-cache.2",
+        "path_type": "softlink",
+        "sha256": "2a55f2cbfa6a9275004ea19e2c8e6249ba3140e38e6f707ca8f138db5a33925c",
+        "size_in_bytes": 9412808
+      },
+      {
+        "_path": "bin/align-cache.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2a55f2cbfa6a9275004ea19e2c8e6249ba3140e38e6f707ca8f138db5a33925c",
+        "sha256_in_prefix": "37c86d854b792cb767d02d8fa629c0823c6706f10e63288533b7ba6c9dfd543e",
+        "size_in_bytes": 9412808
+      },
+      {
+        "_path": "bin/align-info",
+        "path_type": "softlink",
+        "sha256": "ba1c609bbd66d93187db06dad5dac0c583b114414d780f3384f1b30f68b38845",
+        "size_in_bytes": 2879968
+      },
+      {
+        "_path": "bin/align-info.2",
+        "path_type": "softlink",
+        "sha256": "ba1c609bbd66d93187db06dad5dac0c583b114414d780f3384f1b30f68b38845",
+        "size_in_bytes": 2879968
+      },
+      {
+        "_path": "bin/align-info.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "ba1c609bbd66d93187db06dad5dac0c583b114414d780f3384f1b30f68b38845",
+        "sha256_in_prefix": "863a951b341d9c51a21571f0afcd2e1cb09109bea18fcd287c1063fccf4f14c6",
+        "size_in_bytes": 2879968
+      },
+      {
+        "_path": "bin/bam-load",
+        "path_type": "softlink",
+        "sha256": "969a5952ed29628e5ce00c8c5358f4b19377bd44049a75c7cf5454841888651f",
+        "size_in_bytes": 9631128
+      },
+      {
+        "_path": "bin/bam-load.2",
+        "path_type": "softlink",
+        "sha256": "969a5952ed29628e5ce00c8c5358f4b19377bd44049a75c7cf5454841888651f",
+        "size_in_bytes": 9631128
+      },
+      {
+        "_path": "bin/bam-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "969a5952ed29628e5ce00c8c5358f4b19377bd44049a75c7cf5454841888651f",
+        "sha256_in_prefix": "36fe3b256ef183a5931614b0354362be6d15e0b76aec018e8ca32fe4e92cd945",
+        "size_in_bytes": 9631128
+      },
+      {
+        "_path": "bin/cache-mgr",
+        "path_type": "softlink",
+        "sha256": "704a1c14364983c6f9b36cd7c88b205268ee2a8fda92f5855ca9a00f71321b7b",
+        "size_in_bytes": 2881176
+      },
+      {
+        "_path": "bin/cache-mgr.2",
+        "path_type": "softlink",
+        "sha256": "704a1c14364983c6f9b36cd7c88b205268ee2a8fda92f5855ca9a00f71321b7b",
+        "size_in_bytes": 2881176
+      },
+      {
+        "_path": "bin/cache-mgr.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "704a1c14364983c6f9b36cd7c88b205268ee2a8fda92f5855ca9a00f71321b7b",
+        "sha256_in_prefix": "478efed68e92346aff2295de99f7fc1f4673a2d3972418893908eced66492202",
+        "size_in_bytes": 2881176
+      },
+      {
+        "_path": "bin/ccextract",
+        "path_type": "softlink",
+        "sha256": "1e1b60aafc218e34b227e7cec03991b1b48f531eebc5194ffab8aa7b3441094d",
+        "size_in_bytes": 2956568
+      },
+      {
+        "_path": "bin/ccextract.2",
+        "path_type": "softlink",
+        "sha256": "1e1b60aafc218e34b227e7cec03991b1b48f531eebc5194ffab8aa7b3441094d",
+        "size_in_bytes": 2956568
+      },
+      {
+        "_path": "bin/ccextract.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "1e1b60aafc218e34b227e7cec03991b1b48f531eebc5194ffab8aa7b3441094d",
+        "sha256_in_prefix": "fa2e23bf3f1df198d4da1b24d460a1f544b925aa6f7231d65239c764d9c3d063",
+        "size_in_bytes": 2956568
+      },
+      {
+        "_path": "bin/cg-load",
+        "path_type": "softlink",
+        "sha256": "decf9593c12f22545f85120265494eb9c1d4a9a62a3105a44b0945f044ee6be3",
+        "size_in_bytes": 3304120
+      },
+      {
+        "_path": "bin/cg-load.2",
+        "path_type": "softlink",
+        "sha256": "decf9593c12f22545f85120265494eb9c1d4a9a62a3105a44b0945f044ee6be3",
+        "size_in_bytes": 3304120
+      },
+      {
+        "_path": "bin/cg-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "decf9593c12f22545f85120265494eb9c1d4a9a62a3105a44b0945f044ee6be3",
+        "sha256_in_prefix": "345b395b2ae9495fb741ccfaed5e5c3521e9860771d87cf4fc2afa86055c7566",
+        "size_in_bytes": 3304120
+      },
+      {
+        "_path": "bin/fasterq-dump",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fasterq-dump-orig",
+        "path_type": "softlink",
+        "sha256": "91cbf6489a779f04268fed816fd0602f745e2db7a7b3c8c13d1fdfe31db12f45",
+        "size_in_bytes": 3063728
+      },
+      {
+        "_path": "bin/fasterq-dump-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "91cbf6489a779f04268fed816fd0602f745e2db7a7b3c8c13d1fdfe31db12f45",
+        "sha256_in_prefix": "8596acd9b1b5ec66bd49b8a1ac179a8336918f18ab12cf5c34b181e05db00a0e",
+        "size_in_bytes": 3063728
+      },
+      {
+        "_path": "bin/fasterq-dump.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fasterq-dump.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fastq-dump",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fastq-dump-orig",
+        "path_type": "softlink",
+        "sha256": "a39b9b803be7d8ea41b9e96e9a2779810cccd079fcb107fba05a380b50854035",
+        "size_in_bytes": 3068280
+      },
+      {
+        "_path": "bin/fastq-dump-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "a39b9b803be7d8ea41b9e96e9a2779810cccd079fcb107fba05a380b50854035",
+        "sha256_in_prefix": "47bdb5e073b003588b8763f993a44586cf794f3c2fd5ddc3ed75870f16c67866",
+        "size_in_bytes": 3068280
+      },
+      {
+        "_path": "bin/fastq-dump.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fastq-dump.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/fastq-load",
+        "path_type": "softlink",
+        "sha256": "5ee9fd9f858f83e55cfb7162362f4a721d5dc201bad86d945fe93602c1c6d5fc",
+        "size_in_bytes": 3266440
+      },
+      {
+        "_path": "bin/fastq-load.2",
+        "path_type": "softlink",
+        "sha256": "5ee9fd9f858f83e55cfb7162362f4a721d5dc201bad86d945fe93602c1c6d5fc",
+        "size_in_bytes": 3266440
+      },
+      {
+        "_path": "bin/fastq-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "5ee9fd9f858f83e55cfb7162362f4a721d5dc201bad86d945fe93602c1c6d5fc",
+        "sha256_in_prefix": "67160eaabcb7f662ca85bed2649c8dd3219f5aa12b9aaef48c9464c0c89eefc6",
+        "size_in_bytes": 3266440
+      },
+      {
+        "_path": "bin/helicos-load",
+        "path_type": "softlink",
+        "sha256": "236b107d03d38da7582c9e8fd5f47bcb6e2553923cc25e430f7d342d702484ac",
+        "size_in_bytes": 3236216
+      },
+      {
+        "_path": "bin/helicos-load.2",
+        "path_type": "softlink",
+        "sha256": "236b107d03d38da7582c9e8fd5f47bcb6e2553923cc25e430f7d342d702484ac",
+        "size_in_bytes": 3236216
+      },
+      {
+        "_path": "bin/helicos-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "236b107d03d38da7582c9e8fd5f47bcb6e2553923cc25e430f7d342d702484ac",
+        "sha256_in_prefix": "73b5fb5825c152bee3b0396b00e650b9a04382722535a2c6ad241da44bfa8f7f",
+        "size_in_bytes": 3236216
+      },
+      {
+        "_path": "bin/illumina-dump",
+        "path_type": "softlink",
+        "sha256": "aa7e3ea42f72ca611cbdeac5b6886d4abd5cf462261176a7daa518bd922eb52f",
+        "size_in_bytes": 3037416
+      },
+      {
+        "_path": "bin/illumina-dump.2",
+        "path_type": "softlink",
+        "sha256": "aa7e3ea42f72ca611cbdeac5b6886d4abd5cf462261176a7daa518bd922eb52f",
+        "size_in_bytes": 3037416
+      },
+      {
+        "_path": "bin/illumina-dump.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "aa7e3ea42f72ca611cbdeac5b6886d4abd5cf462261176a7daa518bd922eb52f",
+        "sha256_in_prefix": "cd7bf0221f26eab8e682bb38c86b787290093727b3d583cab4f7850482d5ddfc",
+        "size_in_bytes": 3037416
+      },
+      {
+        "_path": "bin/illumina-load",
+        "path_type": "softlink",
+        "sha256": "eb7c6b35c6907d6efa343ad2c7db74937b9da3142f5a725aa2771afbb54f321d",
+        "size_in_bytes": 3253440
+      },
+      {
+        "_path": "bin/illumina-load.2",
+        "path_type": "softlink",
+        "sha256": "eb7c6b35c6907d6efa343ad2c7db74937b9da3142f5a725aa2771afbb54f321d",
+        "size_in_bytes": 3253440
+      },
+      {
+        "_path": "bin/illumina-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "eb7c6b35c6907d6efa343ad2c7db74937b9da3142f5a725aa2771afbb54f321d",
+        "sha256_in_prefix": "69a223ca4b87c41c1c5c68899f3d316ec4f17f17da270f76e361795368651bb7",
+        "size_in_bytes": 3253440
+      },
+      {
+        "_path": "bin/kar",
+        "path_type": "softlink",
+        "sha256": "4d29ada5f994753b1acce81235f11d3b16afcdaff5fe6be28df01a1ae6598e2d",
+        "size_in_bytes": 2904304
+      },
+      {
+        "_path": "bin/kar.2",
+        "path_type": "softlink",
+        "sha256": "4d29ada5f994753b1acce81235f11d3b16afcdaff5fe6be28df01a1ae6598e2d",
+        "size_in_bytes": 2904304
+      },
+      {
+        "_path": "bin/kar.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "4d29ada5f994753b1acce81235f11d3b16afcdaff5fe6be28df01a1ae6598e2d",
+        "sha256_in_prefix": "98d09abeb2cc6009e1d27f62b397436e4ca0e85ab539b23fe765b3da11f91caf",
+        "size_in_bytes": 2904304
+      },
+      {
+        "_path": "bin/kdbmeta",
+        "path_type": "softlink",
+        "sha256": "52f7e1bd04f945b9bb7a6f3a628e5800cfe24242bd7139f166a1220fe55acb69",
+        "size_in_bytes": 3100880
+      },
+      {
+        "_path": "bin/kdbmeta.2",
+        "path_type": "softlink",
+        "sha256": "52f7e1bd04f945b9bb7a6f3a628e5800cfe24242bd7139f166a1220fe55acb69",
+        "size_in_bytes": 3100880
+      },
+      {
+        "_path": "bin/kdbmeta.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "52f7e1bd04f945b9bb7a6f3a628e5800cfe24242bd7139f166a1220fe55acb69",
+        "sha256_in_prefix": "5a29a8526a6f88a7d3d6955703cd0221f7c688d1cab6f52a9243d0b3bc405e5d",
+        "size_in_bytes": 3100880
+      },
+      {
+        "_path": "bin/kget",
+        "path_type": "softlink",
+        "sha256": "c30f0bb2ee30eaf0f6c451eadb114da4849159e8bed8de33dfca9ebe6c59cef8",
+        "size_in_bytes": 2872608
+      },
+      {
+        "_path": "bin/kget.2",
+        "path_type": "softlink",
+        "sha256": "c30f0bb2ee30eaf0f6c451eadb114da4849159e8bed8de33dfca9ebe6c59cef8",
+        "size_in_bytes": 2872608
+      },
+      {
+        "_path": "bin/kget.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "c30f0bb2ee30eaf0f6c451eadb114da4849159e8bed8de33dfca9ebe6c59cef8",
+        "sha256_in_prefix": "b91bb88865fc6d68206734431c9a229a77c1fdacdb366704a37c38af96585779",
+        "size_in_bytes": 2872608
+      },
+      {
+        "_path": "bin/latf-load",
+        "path_type": "softlink",
+        "sha256": "3389ead87b94402caaa0da9dbe0b014a964a79389ea9a88b33025d79a94ebc9b",
+        "size_in_bytes": 3209984
+      },
+      {
+        "_path": "bin/latf-load.2",
+        "path_type": "softlink",
+        "sha256": "3389ead87b94402caaa0da9dbe0b014a964a79389ea9a88b33025d79a94ebc9b",
+        "size_in_bytes": 3209984
+      },
+      {
+        "_path": "bin/latf-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "3389ead87b94402caaa0da9dbe0b014a964a79389ea9a88b33025d79a94ebc9b",
+        "sha256_in_prefix": "c10a6e2c7de6be691dfbe89babc9c5f10d6ff324dbbd048cc76ddb5b07b44ad3",
+        "size_in_bytes": 3209984
+      },
+      {
+        "_path": "bin/magic",
+        "path_type": "hardlink",
+        "sha256": "b8e7933b3879d42266e918edd6a4d5b80f3eabeb9275dd1285373ef27b728cb1",
+        "sha256_in_prefix": "b8e7933b3879d42266e918edd6a4d5b80f3eabeb9275dd1285373ef27b728cb1",
+        "size_in_bytes": 659181
+      },
+      {
+        "_path": "bin/md5cp",
+        "path_type": "softlink",
+        "sha256": "f37dd2cba595a610bdd603a07cb1e10148e2fe41bc0d859f87bdc269f07c7a70",
+        "size_in_bytes": 2877424
+      },
+      {
+        "_path": "bin/md5cp.2",
+        "path_type": "softlink",
+        "sha256": "f37dd2cba595a610bdd603a07cb1e10148e2fe41bc0d859f87bdc269f07c7a70",
+        "size_in_bytes": 2877424
+      },
+      {
+        "_path": "bin/md5cp.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "f37dd2cba595a610bdd603a07cb1e10148e2fe41bc0d859f87bdc269f07c7a70",
+        "sha256_in_prefix": "e5e5609c6b2a9c843b1b2be72e7ac8d1b81bb624bfd8cb228feccb6e3c7c7881",
+        "size_in_bytes": 2877424
+      },
+      {
+        "_path": "bin/ncbi/certs.kfg",
+        "path_type": "hardlink",
+        "sha256": "e1e5588cbc3f37dbbb6593cb970f1530a25d245832c422d076a5dee553e23b2e",
+        "sha256_in_prefix": "e1e5588cbc3f37dbbb6593cb970f1530a25d245832c422d076a5dee553e23b2e",
+        "size_in_bytes": 4345
+      },
+      {
+        "_path": "bin/ncbi/default.kfg",
+        "path_type": "hardlink",
+        "sha256": "bf551e73cdafb97a3d087629ffb2b599893b9d118c1762160f04f21fbaf8cc23",
+        "sha256_in_prefix": "bf551e73cdafb97a3d087629ffb2b599893b9d118c1762160f04f21fbaf8cc23",
+        "size_in_bytes": 2644
+      },
+      {
+        "_path": "bin/ncbi/vdb-copy.kfg",
+        "path_type": "hardlink",
+        "sha256": "2714a4ee9a6a579999a4a55eaadd4809834658accd47c1bef9fc90cb01f8b180",
+        "sha256_in_prefix": "2714a4ee9a6a579999a4a55eaadd4809834658accd47c1bef9fc90cb01f8b180",
+        "size_in_bytes": 4525
+      },
+      {
+        "_path": "bin/pacbio-load",
+        "path_type": "softlink",
+        "sha256": "65707b350ad66c951b0b0c527e4e27380eeaa336fc43a5cd7eea2e68e163011f",
+        "size_in_bytes": 3195296
+      },
+      {
+        "_path": "bin/pacbio-load.2",
+        "path_type": "softlink",
+        "sha256": "65707b350ad66c951b0b0c527e4e27380eeaa336fc43a5cd7eea2e68e163011f",
+        "size_in_bytes": 3195296
+      },
+      {
+        "_path": "bin/pacbio-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "65707b350ad66c951b0b0c527e4e27380eeaa336fc43a5cd7eea2e68e163011f",
+        "sha256_in_prefix": "f794923bca3f11502abbcc65eb73db64f8a445d86a446fbdb0f084556416aca3",
+        "size_in_bytes": 3195296
+      },
+      {
+        "_path": "bin/pacbio-loadxml",
+        "path_type": "softlink",
+        "sha256": "653b773a13975a13e803760a2b95e6f181b5edc1beef918a742010941f119149",
+        "size_in_bytes": 3199552
+      },
+      {
+        "_path": "bin/pacbio-loadxml.2",
+        "path_type": "softlink",
+        "sha256": "653b773a13975a13e803760a2b95e6f181b5edc1beef918a742010941f119149",
+        "size_in_bytes": 3199552
+      },
+      {
+        "_path": "bin/pacbio-loadxml.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "653b773a13975a13e803760a2b95e6f181b5edc1beef918a742010941f119149",
+        "sha256_in_prefix": "e2a5734d58b49ebdb8f56d1aef53bf673608916d4f4ed638070be2abac284a3b",
+        "size_in_bytes": 3199552
+      },
+      {
+        "_path": "bin/prefetch",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/prefetch-orig",
+        "path_type": "softlink",
+        "sha256": "fa9210426797cd1823415eb363be0e1ca6bdd427a3406003fc34b7d4adaecbce",
+        "size_in_bytes": 2997544
+      },
+      {
+        "_path": "bin/prefetch-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "fa9210426797cd1823415eb363be0e1ca6bdd427a3406003fc34b7d4adaecbce",
+        "sha256_in_prefix": "cec734ca3969957906388be268047b9b36a1545cb81e71c2cb0aa3904fb47c13",
+        "size_in_bytes": 2997544
+      },
+      {
+        "_path": "bin/prefetch.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/prefetch.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/rcexplain",
+        "path_type": "softlink",
+        "sha256": "587889044ba79877bd148d10558c1a92296157560250f4fbfdcf85cfca50e47c",
+        "size_in_bytes": 2853632
+      },
+      {
+        "_path": "bin/rcexplain.2",
+        "path_type": "softlink",
+        "sha256": "587889044ba79877bd148d10558c1a92296157560250f4fbfdcf85cfca50e47c",
+        "size_in_bytes": 2853632
+      },
+      {
+        "_path": "bin/rcexplain.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "587889044ba79877bd148d10558c1a92296157560250f4fbfdcf85cfca50e47c",
+        "sha256_in_prefix": "010d8843fc05ecc5cba800e98943465fdc63a0e4bf19f0e3a6aee2119bea9a2a",
+        "size_in_bytes": 2853632
+      },
+      {
+        "_path": "bin/read-filter-redact",
+        "path_type": "softlink",
+        "sha256": "dc35496b926f521ca52bb701d1ddbd4426ddd6bbeb958e30cbe5285aa62658f4",
+        "size_in_bytes": 3100632
+      },
+      {
+        "_path": "bin/read-filter-redact.2",
+        "path_type": "softlink",
+        "sha256": "dc35496b926f521ca52bb701d1ddbd4426ddd6bbeb958e30cbe5285aa62658f4",
+        "size_in_bytes": 3100632
+      },
+      {
+        "_path": "bin/read-filter-redact.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "dc35496b926f521ca52bb701d1ddbd4426ddd6bbeb958e30cbe5285aa62658f4",
+        "sha256_in_prefix": "b088bed894d182fa2b4ea25ac0a5adf75781c848417ac8106cc6f694a44f791e",
+        "size_in_bytes": 3100632
+      },
+      {
+        "_path": "bin/sam-dump",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sam-dump-orig",
+        "path_type": "softlink",
+        "sha256": "b3e64b9b2560b65162129a8a519d40d23eb564eead51762700304c4c4742830c",
+        "size_in_bytes": 3155784
+      },
+      {
+        "_path": "bin/sam-dump-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "b3e64b9b2560b65162129a8a519d40d23eb564eead51762700304c4c4742830c",
+        "sha256_in_prefix": "479052db5d1c1cf7b5b1028126277d3bb18f9b9da99f1a451a62a3f5aa35b2f5",
+        "size_in_bytes": 3155784
+      },
+      {
+        "_path": "bin/sam-dump.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sam-dump.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sff-dump",
+        "path_type": "softlink",
+        "sha256": "1f20aebdb69b9badac85e7922d18893403c6de7ef863ecf8c409ecb07c7d7a6d",
+        "size_in_bytes": 3028408
+      },
+      {
+        "_path": "bin/sff-dump.2",
+        "path_type": "softlink",
+        "sha256": "1f20aebdb69b9badac85e7922d18893403c6de7ef863ecf8c409ecb07c7d7a6d",
+        "size_in_bytes": 3028408
+      },
+      {
+        "_path": "bin/sff-dump.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "1f20aebdb69b9badac85e7922d18893403c6de7ef863ecf8c409ecb07c7d7a6d",
+        "sha256_in_prefix": "7f1a5cc2dad42db0d795646041c21c488bacc7f32cb207f71fcd5d1b4f5df8b9",
+        "size_in_bytes": 3028408
+      },
+      {
+        "_path": "bin/sff-load",
+        "path_type": "softlink",
+        "sha256": "a7d74d8f019ffe43e5899b527b49b7ad012741ee7ef1b0e4d239b9c53ed0ee3b",
+        "size_in_bytes": 3248936
+      },
+      {
+        "_path": "bin/sff-load.2",
+        "path_type": "softlink",
+        "sha256": "a7d74d8f019ffe43e5899b527b49b7ad012741ee7ef1b0e4d239b9c53ed0ee3b",
+        "size_in_bytes": 3248936
+      },
+      {
+        "_path": "bin/sff-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "a7d74d8f019ffe43e5899b527b49b7ad012741ee7ef1b0e4d239b9c53ed0ee3b",
+        "sha256_in_prefix": "ccf5549e03635544244dab3120b0fe8fd93807fdbf4a7dcf33fc837a831d75fc",
+        "size_in_bytes": 3248936
+      },
+      {
+        "_path": "bin/sra-pileup",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sra-pileup-orig",
+        "path_type": "softlink",
+        "sha256": "b5331b18a858ea2236823d816a0dfc2bf5b2f14e9070d4f637ece93d110fbb0e",
+        "size_in_bytes": 3065400
+      },
+      {
+        "_path": "bin/sra-pileup-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "b5331b18a858ea2236823d816a0dfc2bf5b2f14e9070d4f637ece93d110fbb0e",
+        "sha256_in_prefix": "af290564831739fc1fe8e21cce2cda37fcd14868defa79d56622e72aab472dd4",
+        "size_in_bytes": 3065400
+      },
+      {
+        "_path": "bin/sra-pileup.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sra-pileup.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sra-sort",
+        "path_type": "softlink",
+        "sha256": "77407a499e54b310b6d088a561db224fb6f123ec97292b541c40712fb657cd5a",
+        "size_in_bytes": 3315648
+      },
+      {
+        "_path": "bin/sra-sort-cg",
+        "path_type": "softlink",
+        "sha256": "4c4e6b92ebd6f10316ac9db8f5d67fc3651f492a87c85a1a4e3a9de9191383cb",
+        "size_in_bytes": 3315688
+      },
+      {
+        "_path": "bin/sra-sort-cg.2",
+        "path_type": "softlink",
+        "sha256": "4c4e6b92ebd6f10316ac9db8f5d67fc3651f492a87c85a1a4e3a9de9191383cb",
+        "size_in_bytes": 3315688
+      },
+      {
+        "_path": "bin/sra-sort-cg.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "4c4e6b92ebd6f10316ac9db8f5d67fc3651f492a87c85a1a4e3a9de9191383cb",
+        "sha256_in_prefix": "f2e704379566117a337cbb16f1d39439f895617049646ca5087441b0c78e77f4",
+        "size_in_bytes": 3315688
+      },
+      {
+        "_path": "bin/sra-sort.2",
+        "path_type": "softlink",
+        "sha256": "77407a499e54b310b6d088a561db224fb6f123ec97292b541c40712fb657cd5a",
+        "size_in_bytes": 3315648
+      },
+      {
+        "_path": "bin/sra-sort.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "77407a499e54b310b6d088a561db224fb6f123ec97292b541c40712fb657cd5a",
+        "sha256_in_prefix": "f67fdafa6747d731cd8dfbb82e95b4df19d1652af5394a16de644ff5029b7487",
+        "size_in_bytes": 3315648
+      },
+      {
+        "_path": "bin/sra-stat",
+        "path_type": "softlink",
+        "sha256": "85346349465e3fdb09bd3c5cadb78e8910f63b0c6ed04c99ec37c6164e53d64c",
+        "size_in_bytes": 2956136
+      },
+      {
+        "_path": "bin/sra-stat.2",
+        "path_type": "softlink",
+        "sha256": "85346349465e3fdb09bd3c5cadb78e8910f63b0c6ed04c99ec37c6164e53d64c",
+        "size_in_bytes": 2956136
+      },
+      {
+        "_path": "bin/sra-stat.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "85346349465e3fdb09bd3c5cadb78e8910f63b0c6ed04c99ec37c6164e53d64c",
+        "sha256_in_prefix": "3f97fcd58019da40b6efb6e5cc1062766877f453a8112ab4981e0b3eafbaba96",
+        "size_in_bytes": 2956136
+      },
+      {
+        "_path": "bin/srapath",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/srapath-orig",
+        "path_type": "softlink",
+        "sha256": "8c333356767632a26f5bb9500258ce290b723be9430a0290b91b95430915d1af",
+        "size_in_bytes": 2894792
+      },
+      {
+        "_path": "bin/srapath-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "8c333356767632a26f5bb9500258ce290b723be9430a0290b91b95430915d1af",
+        "sha256_in_prefix": "9d641793a1187ab608ed066d1fcce7be57edfb84067e9ce4a8d90a624195662a",
+        "size_in_bytes": 2894792
+      },
+      {
+        "_path": "bin/srapath.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/srapath.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sratools",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sratools.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/sratools.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "sha256_in_prefix": "3634577739800cb93a058bea49a3270b4981d86313f4c26922136303e529916a",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/srf-load",
+        "path_type": "softlink",
+        "sha256": "07d8116e651630400f10e3e1353721c352c4d69bb063e596a17e0b7dae8e4384",
+        "size_in_bytes": 3297184
+      },
+      {
+        "_path": "bin/srf-load.2",
+        "path_type": "softlink",
+        "sha256": "07d8116e651630400f10e3e1353721c352c4d69bb063e596a17e0b7dae8e4384",
+        "size_in_bytes": 3297184
+      },
+      {
+        "_path": "bin/srf-load.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "07d8116e651630400f10e3e1353721c352c4d69bb063e596a17e0b7dae8e4384",
+        "sha256_in_prefix": "cf13934c491b380927c2ee83f9b62d4b0cb580792b223a6486958bec1c366d34",
+        "size_in_bytes": 3297184
+      },
+      {
+        "_path": "bin/test-sra",
+        "path_type": "softlink",
+        "sha256": "3e33ddb7729e5988917378571c033b92a8782e042758abcd7813f648bb767c72",
+        "size_in_bytes": 2960112
+      },
+      {
+        "_path": "bin/test-sra.2",
+        "path_type": "softlink",
+        "sha256": "3e33ddb7729e5988917378571c033b92a8782e042758abcd7813f648bb767c72",
+        "size_in_bytes": 2960112
+      },
+      {
+        "_path": "bin/test-sra.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "3e33ddb7729e5988917378571c033b92a8782e042758abcd7813f648bb767c72",
+        "sha256_in_prefix": "be2e9d91233af9116861c9a1cab8584913415e35c89b16cebd0f2798d5fca007",
+        "size_in_bytes": 2960112
+      },
+      {
+        "_path": "bin/vdb-config",
+        "path_type": "softlink",
+        "sha256": "811541f29af302672efe9b12c307bbedbab12f7c43fe4635941da7928670b896",
+        "size_in_bytes": 9751648
+      },
+      {
+        "_path": "bin/vdb-config.2",
+        "path_type": "softlink",
+        "sha256": "811541f29af302672efe9b12c307bbedbab12f7c43fe4635941da7928670b896",
+        "size_in_bytes": 9751648
+      },
+      {
+        "_path": "bin/vdb-config.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "811541f29af302672efe9b12c307bbedbab12f7c43fe4635941da7928670b896",
+        "sha256_in_prefix": "b163d5db7b6770194e5caee4cba883f4984b951bfff477e17600a1333619952d",
+        "size_in_bytes": 9751648
+      },
+      {
+        "_path": "bin/vdb-copy",
+        "path_type": "softlink",
+        "sha256": "27402ecefb5c0426ed7013a282327d42c567a58b7393b2d251e9840a155c3ade",
+        "size_in_bytes": 3172096
+      },
+      {
+        "_path": "bin/vdb-copy.2",
+        "path_type": "softlink",
+        "sha256": "27402ecefb5c0426ed7013a282327d42c567a58b7393b2d251e9840a155c3ade",
+        "size_in_bytes": 3172096
+      },
+      {
+        "_path": "bin/vdb-copy.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "27402ecefb5c0426ed7013a282327d42c567a58b7393b2d251e9840a155c3ade",
+        "sha256_in_prefix": "bd580b6d00c55b1649c2df6b2a893481e4fd9dad27be69db7c2211def4e981ef",
+        "size_in_bytes": 3172096
+      },
+      {
+        "_path": "bin/vdb-decrypt",
+        "path_type": "softlink",
+        "sha256": "48cd6be8fc82ec7532c58997ad6612144c352616233a75db0e5ff3a8ca44fa8f",
+        "size_in_bytes": 2884760
+      },
+      {
+        "_path": "bin/vdb-decrypt.2",
+        "path_type": "softlink",
+        "sha256": "48cd6be8fc82ec7532c58997ad6612144c352616233a75db0e5ff3a8ca44fa8f",
+        "size_in_bytes": 2884760
+      },
+      {
+        "_path": "bin/vdb-decrypt.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "48cd6be8fc82ec7532c58997ad6612144c352616233a75db0e5ff3a8ca44fa8f",
+        "sha256_in_prefix": "b07d73ed05f8f1b0e2ebdda193279dcbc07135e167321716aad1b42e98acfd30",
+        "size_in_bytes": 2884760
+      },
+      {
+        "_path": "bin/vdb-diff",
+        "path_type": "softlink",
+        "sha256": "d5260eb68032bc6c89a984e7a15e48801ae14f52f1855aa4dfac1db82ac6bb01",
+        "size_in_bytes": 2890480
+      },
+      {
+        "_path": "bin/vdb-diff.2",
+        "path_type": "softlink",
+        "sha256": "d5260eb68032bc6c89a984e7a15e48801ae14f52f1855aa4dfac1db82ac6bb01",
+        "size_in_bytes": 2890480
+      },
+      {
+        "_path": "bin/vdb-diff.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "d5260eb68032bc6c89a984e7a15e48801ae14f52f1855aa4dfac1db82ac6bb01",
+        "sha256_in_prefix": "f10974775931c5b42533eb74651dd9c11c89e49bc4e3586bf1a4ca56500ec547",
+        "size_in_bytes": 2890480
+      },
+      {
+        "_path": "bin/vdb-dump",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/vdb-dump-orig.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "fb38f6e892b630d1b839780d0e0ff3703822e4aa41f87805479f142502c3ba27",
+        "sha256_in_prefix": "8b4647b8a5a3676a8b277de76ff76d9b7dbd001d2eacebc36b647a2e521211a3",
+        "size_in_bytes": 3082280
+      },
+      {
+        "_path": "bin/vdb-dump.2",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/vdb-dump.2.11.0",
+        "path_type": "softlink",
+        "sha256": "3b8e8a4f9c3e4f5c59c861ee5e9b65f6bf7d7c143ee2c979321b5e7775a13c9b",
+        "size_in_bytes": 10233960
+      },
+      {
+        "_path": "bin/vdb-encrypt",
+        "path_type": "softlink",
+        "sha256": "9c6d8f2eb90b8080a17b78c00719cd213a346ba0d4cb7e4e49a9ff0954289b2a",
+        "size_in_bytes": 2880488
+      },
+      {
+        "_path": "bin/vdb-encrypt.2",
+        "path_type": "softlink",
+        "sha256": "9c6d8f2eb90b8080a17b78c00719cd213a346ba0d4cb7e4e49a9ff0954289b2a",
+        "size_in_bytes": 2880488
+      },
+      {
+        "_path": "bin/vdb-encrypt.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "9c6d8f2eb90b8080a17b78c00719cd213a346ba0d4cb7e4e49a9ff0954289b2a",
+        "sha256_in_prefix": "270ffcf1455826d9ef259c779e934d865669dfd2572fc1015fa79867d1104579",
+        "size_in_bytes": 2880488
+      },
+      {
+        "_path": "bin/vdb-lock",
+        "path_type": "softlink",
+        "sha256": "9b0b04cd3b971ae3a960164d4d1537f95995e1a7fa839e9f7742b6c4bb45e3a9",
+        "size_in_bytes": 3082336
+      },
+      {
+        "_path": "bin/vdb-lock.2",
+        "path_type": "softlink",
+        "sha256": "9b0b04cd3b971ae3a960164d4d1537f95995e1a7fa839e9f7742b6c4bb45e3a9",
+        "size_in_bytes": 3082336
+      },
+      {
+        "_path": "bin/vdb-lock.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "9b0b04cd3b971ae3a960164d4d1537f95995e1a7fa839e9f7742b6c4bb45e3a9",
+        "sha256_in_prefix": "888848e0dbde9d0007831851babe1e687cf7cf660a5fb11cd23f4ee70e4076f9",
+        "size_in_bytes": 3082336
+      },
+      {
+        "_path": "bin/vdb-passwd",
+        "path_type": "softlink",
+        "sha256": "14870b5a3f35c3436061bce8efd4ad200f33c3d91dfd3fd2632c19f587d60ee7",
+        "size_in_bytes": 2833224
+      },
+      {
+        "_path": "bin/vdb-passwd.2",
+        "path_type": "softlink",
+        "sha256": "14870b5a3f35c3436061bce8efd4ad200f33c3d91dfd3fd2632c19f587d60ee7",
+        "size_in_bytes": 2833224
+      },
+      {
+        "_path": "bin/vdb-passwd.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "14870b5a3f35c3436061bce8efd4ad200f33c3d91dfd3fd2632c19f587d60ee7",
+        "sha256_in_prefix": "5be4e862d9a0408c22327d7511e8e0912c06a1b652acc963f4f5dc1a3f411875",
+        "size_in_bytes": 2833224
+      },
+      {
+        "_path": "bin/vdb-unlock",
+        "path_type": "softlink",
+        "sha256": "8fc95e464e7f051c1a47f6e5ca7ef286b120a6a5abd0fa19e812707c77753f23",
+        "size_in_bytes": 3082344
+      },
+      {
+        "_path": "bin/vdb-unlock.2",
+        "path_type": "softlink",
+        "sha256": "8fc95e464e7f051c1a47f6e5ca7ef286b120a6a5abd0fa19e812707c77753f23",
+        "size_in_bytes": 3082344
+      },
+      {
+        "_path": "bin/vdb-unlock.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "8fc95e464e7f051c1a47f6e5ca7ef286b120a6a5abd0fa19e812707c77753f23",
+        "sha256_in_prefix": "57a5ad8931504cc1b91f037407bc6d948f9698b2efd51b5d3c66beb8fb02403a",
+        "size_in_bytes": 3082344
+      },
+      {
+        "_path": "bin/vdb-validate",
+        "path_type": "softlink",
+        "sha256": "72182aa1344912f57515aefc592f2dbe47a00c841fa54128b608b3c53c5f7a10",
+        "size_in_bytes": 2949064
+      },
+      {
+        "_path": "bin/vdb-validate.2",
+        "path_type": "softlink",
+        "sha256": "72182aa1344912f57515aefc592f2dbe47a00c841fa54128b608b3c53c5f7a10",
+        "size_in_bytes": 2949064
+      },
+      {
+        "_path": "bin/vdb-validate.2.11.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/sra-tools_1645578383118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "72182aa1344912f57515aefc592f2dbe47a00c841fa54128b608b3c53c5f7a10",
+        "sha256_in_prefix": "b2047135652ad715f060297790b019a51da81f7fa8ee9f8a8f454bde9173eb13",
+        "size_in_bytes": 2949064
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sra-tools=2.11.0",
+  "sha256": "920b17959291e7f72108ce1653f0e31394d8fef145f336052543fe9695411d83",
+  "size": 67024900,
+  "subdir": "linux-64",
+  "timestamp": 1645579125000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/sra-tools-2.11.0-pl5321ha49a11a_3.tar.bz2",
+  "version": "2.11.0"
+}

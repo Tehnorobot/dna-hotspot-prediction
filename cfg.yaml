@@ -1,0 +1,14 @@
+
+samples_file: "~/data/your_rnaseq.tsv" # r
+
+ta"
+transcriptome_fasta: "~/data/your_transcriptome.fna"
+
+
+# params for kallisto
+kallisto_index_dir: "~/data/kallisto_index/"  # indexed transcriptome path
+
+fastp_options: "--detect_adapter_for_pe -q 20 -l 30"
+kallisto_options: "--bias" 
+kallisto_bootstrap: 100
+

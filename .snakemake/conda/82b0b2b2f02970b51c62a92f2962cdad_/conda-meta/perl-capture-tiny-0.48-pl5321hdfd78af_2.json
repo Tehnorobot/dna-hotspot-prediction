@@ -1,0 +1,61 @@
+{
+  "build": "pl5321hdfd78af_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-capture-tiny-0.48-pl5321hdfd78af_2",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Capture/Tiny/.packlist",
+    "lib/perl5/site_perl/Capture/Tiny.pm",
+    "man/man3/Capture::Tiny.3"
+  ],
+  "fn": "perl-capture-tiny-0.48-pl5321hdfd78af_2.tar.bz2",
+  "license": "apache_2_0",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-capture-tiny-0.48-pl5321hdfd78af_2",
+    "type": 1
+  },
+  "md5": "b69b3ca72d566f61f29839319be23b30",
+  "name": "perl-capture-tiny",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-capture-tiny-0.48-pl5321hdfd78af_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Capture/Tiny/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-capture-tiny_1643791533129/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "711259254a39ab10118d1932ff33a7c5a445f98b83a98ad98a9e9acf35d9149e",
+        "sha256_in_prefix": "4bd90f04ed704df240736d68cce7192d2af3e163193a81a8229ad9147a29bebb",
+        "size_in_bytes": 684
+      },
+      {
+        "_path": "lib/perl5/site_perl/Capture/Tiny.pm",
+        "path_type": "hardlink",
+        "sha256": "b3f9b8a1a38ec5d1059ba496dd46d28e1ad17831b78f3ceb64ccd1c058e084be",
+        "sha256_in_prefix": "b3f9b8a1a38ec5d1059ba496dd46d28e1ad17831b78f3ceb64ccd1c058e084be",
+        "size_in_bytes": 29656
+      },
+      {
+        "_path": "man/man3/Capture::Tiny.3",
+        "path_type": "hardlink",
+        "sha256": "9ba6c86f8c262285df3234943be86833e60a42cd78ddd79534ac361aa5761578",
+        "sha256_in_prefix": "9ba6c86f8c262285df3234943be86833e60a42cd78ddd79534ac361aa5761578",
+        "size_in_bytes": 17794
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a1041853f0bc357c97df40d8e1e238b0889eb5785408086e7b5e798f8cd32886",
+  "size": 19262,
+  "subdir": "noarch",
+  "timestamp": 1643791756000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-capture-tiny-0.48-pl5321hdfd78af_2.tar.bz2",
+  "version": "0.48"
+}

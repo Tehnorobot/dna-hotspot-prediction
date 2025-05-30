@@ -1,0 +1,13 @@
+{
+	"n_targets": 4362,
+	"n_bootstraps": 100,
+	"n_processed": 5984801,
+	"n_pseudoaligned": 5241272,
+	"n_unique": 5204756,
+	"p_pseudoaligned": 87.6,
+	"p_unique": 87.0,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Thu May 29 18:55:46 2025",
+	"call": "kallisto quant -i /home/team_2/data/kallisto_index/kallisto.idx -o kallisto_results_2/SRR11213547 --bias -b 100 --threads 4 data/trimmed/SRR11213547_1.trimmed.fastq.gz data/trimmed/SRR11213547_2.trimmed.fastq.gz"
+}

@@ -1,0 +1,93 @@
+{
+  "build": "pl5321hdfd78af_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-xml-sax-base-1.09-pl5321hdfd78af_1",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/XML/SAX/Base/.packlist",
+    "lib/perl5/site_perl/XML/SAX/Base.pm",
+    "lib/perl5/site_perl/XML/SAX/BuildSAXBase.pl",
+    "lib/perl5/site_perl/XML/SAX/Exception.pm",
+    "man/man3/XML::SAX::Base.3",
+    "man/man3/XML::SAX::BuildSAXBase.3",
+    "man/man3/XML::SAX::Exception.3"
+  ],
+  "fn": "perl-xml-sax-base-1.09-pl5321hdfd78af_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-xml-sax-base-1.09-pl5321hdfd78af_1",
+    "type": 1
+  },
+  "md5": "f98548d82c9f4b27eca224211ab193df",
+  "name": "perl-xml-sax-base",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-xml-sax-base-1.09-pl5321hdfd78af_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/XML/SAX/Base/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-xml-sax-base_1642587699139/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "f803e12845bfcbdbbb3af34e4903b686d1a091235656391597c39ef69d5dc756",
+        "sha256_in_prefix": "91a84cb50d615b6024b6cc99552b22733906b592d9d822d6405a1f5a6144c230",
+        "size_in_bytes": 2128
+      },
+      {
+        "_path": "lib/perl5/site_perl/XML/SAX/Base.pm",
+        "path_type": "hardlink",
+        "sha256": "e67921a4fa4b6da0835254f422500a6134189311c968a9a109d0efb1df59041f",
+        "sha256_in_prefix": "e67921a4fa4b6da0835254f422500a6134189311c968a9a109d0efb1df59041f",
+        "size_in_bytes": 122901
+      },
+      {
+        "_path": "lib/perl5/site_perl/XML/SAX/BuildSAXBase.pl",
+        "path_type": "hardlink",
+        "sha256": "b3e7a5a054b2e1667a481ce758bac17cc0b0accc47085af3706d8f5ce85e441a",
+        "sha256_in_prefix": "b3e7a5a054b2e1667a481ce758bac17cc0b0accc47085af3706d8f5ce85e441a",
+        "size_in_bytes": 28687
+      },
+      {
+        "_path": "lib/perl5/site_perl/XML/SAX/Exception.pm",
+        "path_type": "hardlink",
+        "sha256": "879f703178761d9dbea2ba4f11201c75ad75531e724255471f0f4da60692dc51",
+        "sha256_in_prefix": "879f703178761d9dbea2ba4f11201c75ad75531e724255471f0f4da60692dc51",
+        "size_in_bytes": 3033
+      },
+      {
+        "_path": "man/man3/XML::SAX::Base.3",
+        "path_type": "hardlink",
+        "sha256": "9ac2a1ede476375ac93145e4397772c8cc50a6202e75e4ec60ec0fca4ab0a8b3",
+        "sha256_in_prefix": "9ac2a1ede476375ac93145e4397772c8cc50a6202e75e4ec60ec0fca4ab0a8b3",
+        "size_in_bytes": 11891
+      },
+      {
+        "_path": "man/man3/XML::SAX::BuildSAXBase.3",
+        "path_type": "hardlink",
+        "sha256": "8be4ca4bec37286ef840557536f5b8b411ae6a7df34bf64fbe42155f88bc62b1",
+        "sha256_in_prefix": "8be4ca4bec37286ef840557536f5b8b411ae6a7df34bf64fbe42155f88bc62b1",
+        "size_in_bytes": 11887
+      },
+      {
+        "_path": "man/man3/XML::SAX::Exception.3",
+        "path_type": "hardlink",
+        "sha256": "370ea1004c38eb0e570c2751667bed4fed312e0754a1386cbefa4a2cbd7f8907",
+        "sha256_in_prefix": "370ea1004c38eb0e570c2751667bed4fed312e0754a1386cbefa4a2cbd7f8907",
+        "size_in_bytes": 3814
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "91a5fd78638f00d17b146dc915cb6f2a54a69d65abba163d93832495ff3ca665",
+  "size": 21761,
+  "subdir": "noarch",
+  "timestamp": 1642587921000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-xml-sax-base-1.09-pl5321hdfd78af_1.tar.bz2",
+  "version": "1.09"
+}

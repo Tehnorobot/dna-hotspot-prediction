@@ -1,0 +1,125 @@
+{
+  "build": "h5888daf_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/ossuuid-1.6.2-h5888daf_1001",
+  "files": [
+    "bin/uuid",
+    "bin/uuid-config",
+    "include/uuid.h",
+    "lib/libuuid.a",
+    "lib/libuuid.so",
+    "lib/libuuid.so.16",
+    "lib/libuuid.so.16.0.22",
+    "lib/pkgconfig/uuid.pc",
+    "share/man/man1/uuid-config.1",
+    "share/man/man1/uuid.1",
+    "share/man/man3/uuid.3"
+  ],
+  "fn": "ossuuid-1.6.2-h5888daf_1001.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/ossuuid-1.6.2-h5888daf_1001",
+    "type": 1
+  },
+  "md5": "6cc16cf6cd2fd0b22844735f52468a98",
+  "name": "ossuuid",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/ossuuid-1.6.2-h5888daf_1001.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/uuid",
+        "path_type": "hardlink",
+        "sha256": "8168bac3ac8f2469c199dcdab315fc6fab3ccff826ce0d7d0f0c0b124a6f2296",
+        "sha256_in_prefix": "8168bac3ac8f2469c199dcdab315fc6fab3ccff826ce0d7d0f0c0b124a6f2296",
+        "size_in_bytes": 14328
+      },
+      {
+        "_path": "bin/uuid-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ossuuid_1736761522308/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "fd01a78ea49e3ec86c1fb7af7e96547b78eb67acea05029fe6f8d12d01cddeb7",
+        "sha256_in_prefix": "a38cd5211f9e0dabac7b8fd169cd0f869d9bc5907978f6f6333fd37c8e243dfc",
+        "size_in_bytes": 6196
+      },
+      {
+        "_path": "include/uuid.h",
+        "path_type": "hardlink",
+        "sha256": "faae65d10d829d7d6950f84bf3e5da985825fc6b5726596bd3d0f474d2f5c24b",
+        "sha256_in_prefix": "faae65d10d829d7d6950f84bf3e5da985825fc6b5726596bd3d0f474d2f5c24b",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "lib/libuuid.a",
+        "path_type": "hardlink",
+        "sha256": "099ffe9fe64d66c65dde88b7ed5c2f85f63eaf3136e4d3d36a9bcde294b691e6",
+        "sha256_in_prefix": "099ffe9fe64d66c65dde88b7ed5c2f85f63eaf3136e4d3d36a9bcde294b691e6",
+        "size_in_bytes": 83084
+      },
+      {
+        "_path": "lib/libuuid.so",
+        "path_type": "softlink",
+        "sha256": "a2495db046a8baa788e34e515791f959448c15b295a424b483c93c3675dec85d",
+        "size_in_bytes": 57400
+      },
+      {
+        "_path": "lib/libuuid.so.16",
+        "path_type": "softlink",
+        "sha256": "a2495db046a8baa788e34e515791f959448c15b295a424b483c93c3675dec85d",
+        "size_in_bytes": 57400
+      },
+      {
+        "_path": "lib/libuuid.so.16.0.22",
+        "path_type": "hardlink",
+        "sha256": "a2495db046a8baa788e34e515791f959448c15b295a424b483c93c3675dec85d",
+        "sha256_in_prefix": "a2495db046a8baa788e34e515791f959448c15b295a424b483c93c3675dec85d",
+        "size_in_bytes": 57400
+      },
+      {
+        "_path": "lib/pkgconfig/uuid.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ossuuid_1736761522308/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "7b816ad33ff5105923ab4e8d09697df57231ffcfaf25c41b62e7c481363a47c0",
+        "sha256_in_prefix": "ebc7a96ce112f0d60c604d9988dae6d4414377a7036fdb4ffb6cb0789a3bda2a",
+        "size_in_bytes": 1921
+      },
+      {
+        "_path": "share/man/man1/uuid-config.1",
+        "path_type": "hardlink",
+        "sha256": "ebc23ea53ba159eb5ba1537de2e6a3239205935c19aa048727b967b52a504a50",
+        "sha256_in_prefix": "ebc23ea53ba159eb5ba1537de2e6a3239205935c19aa048727b967b52a504a50",
+        "size_in_bytes": 7197
+      },
+      {
+        "_path": "share/man/man1/uuid.1",
+        "path_type": "hardlink",
+        "sha256": "69578a3502da7b2f135770750276cd7eaf821ad5f7b05c5b29c1afc611c696e2",
+        "sha256_in_prefix": "69578a3502da7b2f135770750276cd7eaf821ad5f7b05c5b29c1afc611c696e2",
+        "size_in_bytes": 10798
+      },
+      {
+        "_path": "share/man/man3/uuid.3",
+        "path_type": "hardlink",
+        "sha256": "ad21d046ab52d687274a40e84d12e52d9a825b9f10c6dd514165b6781602be27",
+        "sha256_in_prefix": "ad21d046ab52d687274a40e84d12e52d9a825b9f10c6dd514165b6781602be27",
+        "size_in_bytes": 28713
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fec82722c32caf0d4f1f8f4148786dc8898e903b32a2d9974b979f8b597cab12",
+  "size": 54218,
+  "subdir": "linux-64",
+  "timestamp": 1736761658000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ossuuid-1.6.2-h5888daf_1001.conda",
+  "version": "1.6.2"
+}

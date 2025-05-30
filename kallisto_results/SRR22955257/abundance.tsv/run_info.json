@@ -1,0 +1,13 @@
+{
+	"n_targets": 4362,
+	"n_bootstraps": 100,
+	"n_processed": 6540082,
+	"n_pseudoaligned": 5443525,
+	"n_unique": 4965456,
+	"p_pseudoaligned": 83.2,
+	"p_unique": 75.9,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Thu May 29 10:19:43 2025",
+	"call": "kallisto quant -i /home/team_2/data/kallisto_index/kallisto.idx -o kallisto_results/SRR22955257/abundance.tsv --bias --bootstrap 100 --threads 4 data/trimmed/SRR22955257_1.trimmed.fastq.gz data/trimmed/SRR22955257_2.trimmed.fastq.gz"
+}

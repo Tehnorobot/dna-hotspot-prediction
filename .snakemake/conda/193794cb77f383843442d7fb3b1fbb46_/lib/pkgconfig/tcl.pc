@@ -1,0 +1,16 @@
+# tcl pkg-config source file
+
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_
+exec_prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_
+libdir=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_/lib
+includedir=${prefix}/include
+libfile=libtcl8.6.so
+
+Name: Tool Command Language
+Description: Tcl is a powerful, easy-to-learn dynamic programming language, suitable for a wide range of uses.
+URL: https://www.tcl-lang.org/
+Version: 8.6.13
+Requires.private: zlib >= 1.2.3
+Libs: -L${libdir} -ltcl8.6 -ltclstub8.6
+Libs.private: -ldl -lz  -lpthread -lm
+Cflags: -I${includedir}

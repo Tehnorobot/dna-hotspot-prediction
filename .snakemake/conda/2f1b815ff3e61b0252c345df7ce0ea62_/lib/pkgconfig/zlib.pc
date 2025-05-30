@@ -1,0 +1,13 @@
+prefix=/home/team_2/pipeline/.snakemake/conda/2f1b815ff3e61b0252c345df7ce0ea62_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

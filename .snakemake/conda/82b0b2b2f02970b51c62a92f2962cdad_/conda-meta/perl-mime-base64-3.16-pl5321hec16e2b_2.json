@@ -1,0 +1,70 @@
+{
+  "build": "pl5321hec16e2b_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-mime-base64-3.16-pl5321hec16e2b_2",
+  "files": [
+    "lib/perl5/5.32/site_perl/MIME/Base64.pm",
+    "lib/perl5/5.32/site_perl/MIME/QuotedPrint.pm",
+    "lib/perl5/5.32/site_perl/auto/MIME/Base64/.packlist",
+    "lib/perl5/5.32/site_perl/auto/MIME/Base64/Base64.so"
+  ],
+  "fn": "perl-mime-base64-3.16-pl5321hec16e2b_2.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-mime-base64-3.16-pl5321hec16e2b_2",
+    "type": 1
+  },
+  "md5": "df1e0427e5991a539e6a7520f3728bc9",
+  "name": "perl-mime-base64",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-mime-base64-3.16-pl5321hec16e2b_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/MIME/Base64.pm",
+        "path_type": "hardlink",
+        "sha256": "dfb1e3876b3e7f3cf9a3f23123c37464617e551802e618e54cabd7890c986cc8",
+        "sha256_in_prefix": "dfb1e3876b3e7f3cf9a3f23123c37464617e551802e618e54cabd7890c986cc8",
+        "size_in_bytes": 5433
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/MIME/QuotedPrint.pm",
+        "path_type": "hardlink",
+        "sha256": "93e75caab133ddb851dd3ad473e3040d4a2870fa0fc6b3fa7e670bdebc688a7e",
+        "sha256_in_prefix": "93e75caab133ddb851dd3ad473e3040d4a2870fa0fc6b3fa7e670bdebc688a7e",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/MIME/Base64/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-mime-base64_1645574469339/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5c8665f4a587c7ef92267196985da5225aef78056affd3b1253b0f534ad2a1ae",
+        "sha256_in_prefix": "419a986aaa6d2aa1c7118b69f35ba61a94057127649411265c7509ae14935a4a",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/MIME/Base64/Base64.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-mime-base64_1645574469339/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "00b3ab9fc92f4d4ade141c976c2fdde7196ec03f25e5a01965c77b4f277cbcc3",
+        "sha256_in_prefix": "ae9c70993d49b7cceb70334117828542587d6ffb2a78a01e656cb5ef3c08c20e",
+        "size_in_bytes": 20688
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5f2d2ded4f4a3c1480e0ee6bb3913d149b1573daf85cc691d5cdec3d944f9c40",
+  "size": 17536,
+  "subdir": "linux-64",
+  "timestamp": 1645574739000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-mime-base64-3.16-pl5321hec16e2b_2.tar.bz2",
+  "version": "3.16"
+}

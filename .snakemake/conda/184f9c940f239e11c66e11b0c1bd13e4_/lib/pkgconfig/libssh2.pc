@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/184f9c940f239e11c66e11b0c1bd13e4_
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: Library for SSH-based communication
+Version: 1.11.0
+Requires.private: libssl,libcrypto,zlib,zlib
+Libs: -L${libdir} -lssh2 
+Libs.private: 
+Cflags: -I${includedir}

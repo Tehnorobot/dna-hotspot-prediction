@@ -1,0 +1,8 @@
+# envs/kallisto.yaml
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - kallisto=0.48.0 # Актуальная и стабильная версия.
+  - peppy

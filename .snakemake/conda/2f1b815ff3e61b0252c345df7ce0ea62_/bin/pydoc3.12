@@ -1,0 +1,5 @@
+#!/home/team_2/pipeline/.snakemake/conda/2f1b815ff3e61b0252c345df7ce0ea62_/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

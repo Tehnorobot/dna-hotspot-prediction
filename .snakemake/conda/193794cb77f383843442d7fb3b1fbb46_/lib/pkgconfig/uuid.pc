@@ -1,0 +1,11 @@
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_
+exec_prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_
+libdir=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_/lib
+includedir=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

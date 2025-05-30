@@ -1,0 +1,8 @@
+# envs/sra_toolkit.yaml
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - sra-tools=2.11.0 # Рекомендуемая стабильная версия. Можешь обновить до 2.11.3 или 3.0.0, если нужно.
+  - peppy

@@ -1,0 +1,11 @@
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libisal
+Description: Library for storage systems
+Version: 2.31.1
+Libs: -L${libdir} -lisal
+Libs.private:
+Cflags: -I${includedir}

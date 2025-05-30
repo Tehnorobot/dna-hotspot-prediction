@@ -1,0 +1,63 @@
+{
+  "build": "pl5321hdfd78af_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl-carp",
+    "perl-importer",
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-sub-info-0.002-pl5321hdfd78af_1",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Sub/Info/.packlist",
+    "lib/perl5/site_perl/Sub/Info.pm",
+    "man/man3/Sub::Info.3"
+  ],
+  "fn": "perl-sub-info-0.002-pl5321hdfd78af_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-sub-info-0.002-pl5321hdfd78af_1",
+    "type": 1
+  },
+  "md5": "e5ac8ff06112d6817b954b491e9c93ce",
+  "name": "perl-sub-info",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-sub-info-0.002-pl5321hdfd78af_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Sub/Info/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-sub-info_1642643131047/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7a006fe0cd0bdfbfa974c91b3c5f1a9387f172fde9ca52c2c5768ed3082e58fe",
+        "sha256_in_prefix": "ee1b564205873bd30a096aa06087229a47c2fe2d83e870176269351c273a02ca",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "lib/perl5/site_perl/Sub/Info.pm",
+        "path_type": "hardlink",
+        "sha256": "a7cf8d96e20c338cc88c98df56c7179f36f9f6e307a2d6c8416dc9c4f09b0542",
+        "sha256_in_prefix": "a7cf8d96e20c338cc88c98df56c7179f36f9f6e307a2d6c8416dc9c4f09b0542",
+        "size_in_bytes": 4090
+      },
+      {
+        "_path": "man/man3/Sub::Info.3",
+        "path_type": "hardlink",
+        "sha256": "98edf36dfe85e563cd77f1ef72aa16f32f664d6a50f713943bd239b2bb60375e",
+        "sha256_in_prefix": "98edf36dfe85e563cd77f1ef72aa16f32f664d6a50f713943bd239b2bb60375e",
+        "size_in_bytes": 6220
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c867df897246cfa8c0f1d940b00320909ad1241fa0569597ae69ffb94c2778a6",
+  "size": 10212,
+  "subdir": "noarch",
+  "timestamp": 1642643411000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-sub-info-0.002-pl5321hdfd78af_1.tar.bz2",
+  "version": "0.002"
+}

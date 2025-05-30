@@ -1,0 +1,13 @@
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table.pm relocate_as=../../../../../site_perl/Term/Table.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/Cell.pm relocate_as=../../../../../site_perl/Term/Table/Cell.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/CellStack.pm relocate_as=../../../../../site_perl/Term/Table/CellStack.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/HashBase.pm relocate_as=../../../../../site_perl/Term/Table/HashBase.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/LineBreak.pm relocate_as=../../../../../site_perl/Term/Table/LineBreak.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/Spacer.pm relocate_as=../../../../../site_perl/Term/Table/Spacer.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Term/Table/Util.pm relocate_as=../../../../../site_perl/Term/Table/Util.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table.3 relocate_as=../../../../../../../man/man3/Term::Table.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table::Cell.3 relocate_as=../../../../../../../man/man3/Term::Table::Cell.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table::CellStack.3 relocate_as=../../../../../../../man/man3/Term::Table::CellStack.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table::HashBase.3 relocate_as=../../../../../../../man/man3/Term::Table::HashBase.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table::LineBreak.3 relocate_as=../../../../../../../man/man3/Term::Table::LineBreak.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Term::Table::Util.3 relocate_as=../../../../../../../man/man3/Term::Table::Util.3

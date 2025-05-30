@@ -1,0 +1,5 @@
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/5.32/site_perl/MIME/Base64.pm relocate_as=../../../MIME/Base64.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/5.32/site_perl/MIME/QuotedPrint.pm relocate_as=../../../MIME/QuotedPrint.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/5.32/site_perl/auto/MIME/Base64/Base64.so relocate_as=Base64.so
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/MIME::Base64.3 relocate_as=../../../../../../../man/man3/MIME::Base64.3
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/MIME::QuotedPrint.3 relocate_as=../../../../../../../man/man3/MIME::QuotedPrint.3

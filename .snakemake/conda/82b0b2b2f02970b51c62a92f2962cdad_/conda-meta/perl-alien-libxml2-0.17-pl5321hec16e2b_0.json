@@ -1,0 +1,95 @@
+{
+  "build": "pl5321hec16e2b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5",
+    "perl-alien-build 2.48.*"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-alien-libxml2-0.17-pl5321hec16e2b_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/Alien/Libxml2.pm",
+    "lib/perl5/5.32/site_perl/Alien/Libxml2/Install/Files.pm",
+    "lib/perl5/5.32/site_perl/auto/Alien/Libxml2/.packlist",
+    "lib/perl5/5.32/site_perl/auto/Alien/Libxml2/Libxml2.txt",
+    "lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2/_alien/alien.json",
+    "lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2/_alien/alienfile",
+    "man/man3/Alien::Libxml2.3"
+  ],
+  "fn": "perl-alien-libxml2-0.17-pl5321hec16e2b_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-alien-libxml2-0.17-pl5321hec16e2b_0",
+    "type": 1
+  },
+  "md5": "4628ba7447031d6e4661732a2e7bdc64",
+  "name": "perl-alien-libxml2",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-alien-libxml2-0.17-pl5321hec16e2b_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/Alien/Libxml2.pm",
+        "path_type": "hardlink",
+        "sha256": "ed58af3c8322412d20abbe23ccf1fdb1f13b27b210571caa9083299af688944c",
+        "sha256_in_prefix": "ed58af3c8322412d20abbe23ccf1fdb1f13b27b210571caa9083299af688944c",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/Alien/Libxml2/Install/Files.pm",
+        "path_type": "hardlink",
+        "sha256": "412be695be33f58faecb1d6f5ab9052678ca552205f972c85b1a7611d21b7158",
+        "sha256_in_prefix": "412be695be33f58faecb1d6f5ab9052678ca552205f972c85b1a7611d21b7158",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Alien/Libxml2/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-alien-libxml2_1648501183463/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "6ac562626ea343402725ba28bacfdfea7a31bde272fe01b4158202795928eba1",
+        "sha256_in_prefix": "f9e611f829649b4bc6fd99f02d2f9e08974df4a37dd1f700308147bb93847eda",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Alien/Libxml2/Libxml2.txt",
+        "path_type": "hardlink",
+        "sha256": "b566061086c072738bb9b2d4eb307a925bbb2b794fdd93e29d52fa393f49ba29",
+        "sha256_in_prefix": "b566061086c072738bb9b2d4eb307a925bbb2b794fdd93e29d52fa393f49ba29",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2/_alien/alien.json",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-alien-libxml2_1648501183463/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "857e72abbd91df87977e9b0a8b0922c2a27340c37d771b93b66caf5a789db3c2",
+        "sha256_in_prefix": "a54b64ec3d73307bf7ba87dddf11b839ae8c1e0a1dec14b0bb607536e4615d38",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2/_alien/alienfile",
+        "path_type": "hardlink",
+        "sha256": "58c6f924dec0ca7ca96d3f083111894a5f7fe24b737cee364e6a62c17832dc74",
+        "sha256_in_prefix": "58c6f924dec0ca7ca96d3f083111894a5f7fe24b737cee364e6a62c17832dc74",
+        "size_in_bytes": 6743
+      },
+      {
+        "_path": "man/man3/Alien::Libxml2.3",
+        "path_type": "hardlink",
+        "sha256": "73cc66c34bf4a5201818c56ce60da402db82371c6bfecf7ae4c715dc909d4f38",
+        "sha256_in_prefix": "73cc66c34bf4a5201818c56ce60da402db82371c6bfecf7ae4c715dc909d4f38",
+        "size_in_bytes": 4829
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f14ac664d7d664ab2cad24f5b817a8bc691e34703b5f4ec5f9e80ae663d7cb39",
+  "size": 13021,
+  "subdir": "linux-64",
+  "timestamp": 1648501301000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-alien-libxml2-0.17-pl5321hec16e2b_0.tar.bz2",
+  "version": "0.17"
+}

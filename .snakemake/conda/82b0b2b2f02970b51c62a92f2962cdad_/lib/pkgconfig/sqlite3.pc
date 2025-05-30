@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.46.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -lm -ldl -lpthread 
+Cflags: -I${includedir}

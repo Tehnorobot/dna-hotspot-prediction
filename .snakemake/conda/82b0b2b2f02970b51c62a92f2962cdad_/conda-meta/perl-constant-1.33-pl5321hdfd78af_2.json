@@ -1,0 +1,53 @@
+{
+  "build": "pl5321hdfd78af_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-constant-1.33-pl5321hdfd78af_2",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/constant/.packlist",
+    "lib/perl5/site_perl/constant.pm"
+  ],
+  "fn": "perl-constant-1.33-pl5321hdfd78af_2.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-constant-1.33-pl5321hdfd78af_2",
+    "type": 1
+  },
+  "md5": "bda05b652c9a6d069ccf520149e1c171",
+  "name": "perl-constant",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-constant-1.33-pl5321hdfd78af_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/constant/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-constant_1642460368933/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "378392a1433995ab66720edb8015cfc9e14d223134690575e090ac5f657ab006",
+        "sha256_in_prefix": "7c86ec2589fd7ce4ac6fb98f64ade4b4e43a45842bdbded7ba3e6063e8f83a22",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/perl5/site_perl/constant.pm",
+        "path_type": "hardlink",
+        "sha256": "e67cdfa533d42cbe5265bcf3c270f055620cba38a9295b5d584b7efc37a0c156",
+        "sha256_in_prefix": "e67cdfa533d42cbe5265bcf3c270f055620cba38a9295b5d584b7efc37a0c156",
+        "size_in_bytes": 14724
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3ac57f148527bf1efaff7137b3be3e1b62621297e52d4e9d2fe206952e864990",
+  "size": 12478,
+  "subdir": "noarch",
+  "timestamp": 1642460521000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-constant-1.33-pl5321hdfd78af_2.tar.bz2",
+  "version": "1.33"
+}

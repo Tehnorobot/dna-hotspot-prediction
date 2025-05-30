@@ -1,0 +1,5 @@
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Business/ISBN/Data.pm relocate_as=../../../../../../site_perl/Business/ISBN/Data.pm
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Business/ISBN/RangeMessage.url relocate_as=../../../../../../site_perl/Business/ISBN/RangeMessage.url
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Business/ISBN/RangeMessage.xml relocate_as=../../../../../../site_perl/Business/ISBN/RangeMessage.xml
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/site_perl/Business/ISBN/make_data.pl relocate_as=../../../../../../site_perl/Business/ISBN/make_data.pl
+/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/man/man3/Business::ISBN::Data.3 relocate_as=../../../../../../../../man/man3/Business::ISBN::Data.3

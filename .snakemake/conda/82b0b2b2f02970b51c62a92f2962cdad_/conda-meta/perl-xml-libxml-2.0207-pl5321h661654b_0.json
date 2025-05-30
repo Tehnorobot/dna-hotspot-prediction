@@ -1,0 +1,677 @@
+{
+  "build": "pl5321h661654b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl-xml-namespacesupport",
+    "perl-xml-sax",
+    "zlib >=1.2.11,<1.3.0a0",
+    "libgcc-ng >=10.3.0",
+    "libzlib >=1.2.11,<1.3.0a0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5",
+    "libxml2 >=2.9.12,<2.10.0a0",
+    "perl-alien-build 2.48.*",
+    "perl-alien-libxml2 0.17.*"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-xml-libxml-2.0207-pl5321h661654b_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/XML/LibXML.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Attr.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/AttributeHash.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Boolean.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/CDATASection.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Comment.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Common.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Common.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/DOM.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Devel.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Document.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/DocumentFragment.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Dtd.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Element.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/ErrNo.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/ErrNo.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Error.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Error.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/InputCallback.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Literal.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Namespace.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Node.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/NodeList.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Number.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/PI.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Parser.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Pattern.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Reader.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Reader.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/RegExp.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/RelaxNG.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Builder.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Builder.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Generator.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Parser.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Schema.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/Text.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/XPathContext.pm",
+    "lib/perl5/5.32/site_perl/XML/LibXML/XPathContext.pod",
+    "lib/perl5/5.32/site_perl/XML/LibXML/XPathExpression.pod",
+    "lib/perl5/5.32/site_perl/auto/XML/LibXML/.packlist",
+    "lib/perl5/5.32/site_perl/auto/XML/LibXML/LibXML.so",
+    "man/man3/XML::LibXML.3",
+    "man/man3/XML::LibXML::Attr.3",
+    "man/man3/XML::LibXML::AttributeHash.3",
+    "man/man3/XML::LibXML::Boolean.3",
+    "man/man3/XML::LibXML::CDATASection.3",
+    "man/man3/XML::LibXML::Comment.3",
+    "man/man3/XML::LibXML::Common.3",
+    "man/man3/XML::LibXML::DOM.3",
+    "man/man3/XML::LibXML::Devel.3",
+    "man/man3/XML::LibXML::Document.3",
+    "man/man3/XML::LibXML::DocumentFragment.3",
+    "man/man3/XML::LibXML::Dtd.3",
+    "man/man3/XML::LibXML::Element.3",
+    "man/man3/XML::LibXML::ErrNo.3",
+    "man/man3/XML::LibXML::Error.3",
+    "man/man3/XML::LibXML::InputCallback.3",
+    "man/man3/XML::LibXML::Literal.3",
+    "man/man3/XML::LibXML::Namespace.3",
+    "man/man3/XML::LibXML::Node.3",
+    "man/man3/XML::LibXML::NodeList.3",
+    "man/man3/XML::LibXML::Number.3",
+    "man/man3/XML::LibXML::PI.3",
+    "man/man3/XML::LibXML::Parser.3",
+    "man/man3/XML::LibXML::Pattern.3",
+    "man/man3/XML::LibXML::Reader.3",
+    "man/man3/XML::LibXML::RegExp.3",
+    "man/man3/XML::LibXML::RelaxNG.3",
+    "man/man3/XML::LibXML::SAX.3",
+    "man/man3/XML::LibXML::SAX::Builder.3",
+    "man/man3/XML::LibXML::SAX::Generator.3",
+    "man/man3/XML::LibXML::Schema.3",
+    "man/man3/XML::LibXML::Text.3",
+    "man/man3/XML::LibXML::XPathContext.3",
+    "man/man3/XML::LibXML::XPathExpression.3"
+  ],
+  "fn": "perl-xml-libxml-2.0207-pl5321h661654b_0.tar.bz2",
+  "license": "Perl",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-xml-libxml-2.0207-pl5321h661654b_0",
+    "type": 1
+  },
+  "md5": "1ce8ba66c656dbe547110201b1456797",
+  "name": "perl-xml-libxml",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-xml-libxml-2.0207-pl5321h661654b_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML.pm",
+        "path_type": "hardlink",
+        "sha256": "8aa24f493f8665fe6b4a66b5a808a6d36a9b7c85c657aa20d66c2c7955d90a63",
+        "sha256_in_prefix": "8aa24f493f8665fe6b4a66b5a808a6d36a9b7c85c657aa20d66c2c7955d90a63",
+        "size_in_bytes": 66344
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML.pod",
+        "path_type": "hardlink",
+        "sha256": "b238dbbc76d17eba9d501f1640ba8bb5c75ee3c3aca02ba04e44b0b9c2881492",
+        "sha256_in_prefix": "b238dbbc76d17eba9d501f1640ba8bb5c75ee3c3aca02ba04e44b0b9c2881492",
+        "size_in_bytes": 15283
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Attr.pod",
+        "path_type": "hardlink",
+        "sha256": "9f86bea3dc2727f933971e1445085ffc1d4eaa6bb74092f6a3ff2e42261baba7",
+        "sha256_in_prefix": "9f86bea3dc2727f933971e1445085ffc1d4eaa6bb74092f6a3ff2e42261baba7",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/AttributeHash.pm",
+        "path_type": "hardlink",
+        "sha256": "471ea3caa9da7ae32dd3532e3fe1358ce7051bd2ea863015a6535839bba9f2aa",
+        "sha256_in_prefix": "471ea3caa9da7ae32dd3532e3fe1358ce7051bd2ea863015a6535839bba9f2aa",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Boolean.pm",
+        "path_type": "hardlink",
+        "sha256": "8cbcc9e981163d28e50056b2298ce226fa7354c03730d4acfe2021d4cdc93c59",
+        "sha256_in_prefix": "8cbcc9e981163d28e50056b2298ce226fa7354c03730d4acfe2021d4cdc93c59",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/CDATASection.pod",
+        "path_type": "hardlink",
+        "sha256": "21f40295837ebc306420ace070d5c3a09061f220884a4f0da87e740f34eb8333",
+        "sha256_in_prefix": "21f40295837ebc306420ace070d5c3a09061f220884a4f0da87e740f34eb8333",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Comment.pod",
+        "path_type": "hardlink",
+        "sha256": "7c38b97dc48a012bfc82aae781d3a2e4b59a816e21c2ba34b2af4218d6bc53db",
+        "sha256_in_prefix": "7c38b97dc48a012bfc82aae781d3a2e4b59a816e21c2ba34b2af4218d6bc53db",
+        "size_in_bytes": 1396
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Common.pm",
+        "path_type": "hardlink",
+        "sha256": "6ad654a5c34a8e438c8b052cd86a63185903c7f1a5bf98a57837c3a175691247",
+        "sha256_in_prefix": "6ad654a5c34a8e438c8b052cd86a63185903c7f1a5bf98a57837c3a175691247",
+        "size_in_bytes": 8399
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Common.pod",
+        "path_type": "hardlink",
+        "sha256": "a8115cc27a924e38cf8a5ea7f8a25f24343b5b9419972bcedaf3a57bea815a45",
+        "sha256_in_prefix": "a8115cc27a924e38cf8a5ea7f8a25f24343b5b9419972bcedaf3a57bea815a45",
+        "size_in_bytes": 3672
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/DOM.pod",
+        "path_type": "hardlink",
+        "sha256": "6e5e6279fe988efb7f789e0b087c02954ef952169401ab5c3e3c0b3730069c49",
+        "sha256_in_prefix": "6e5e6279fe988efb7f789e0b087c02954ef952169401ab5c3e3c0b3730069c49",
+        "size_in_bytes": 6379
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Devel.pm",
+        "path_type": "hardlink",
+        "sha256": "cf6d8af2b453333908709587be81b9e6973251a20210c9ca40ea4747a90fa0af",
+        "sha256_in_prefix": "cf6d8af2b453333908709587be81b9e6973251a20210c9ca40ea4747a90fa0af",
+        "size_in_bytes": 5028
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Document.pod",
+        "path_type": "hardlink",
+        "sha256": "da7ffb90ac13868b542290fc1b62bee23c5519443e195eeebe9e2f64a2b4bf03",
+        "sha256_in_prefix": "da7ffb90ac13868b542290fc1b62bee23c5519443e195eeebe9e2f64a2b4bf03",
+        "size_in_bytes": 21407
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/DocumentFragment.pod",
+        "path_type": "hardlink",
+        "sha256": "cd634f0fba147a1e3ccf7ce1f7f7f0d68bf2f3b8f70d902d21987dea5e1c94e4",
+        "sha256_in_prefix": "cd634f0fba147a1e3ccf7ce1f7f7f0d68bf2f3b8f70d902d21987dea5e1c94e4",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Dtd.pod",
+        "path_type": "hardlink",
+        "sha256": "39d266a99e51d6749677580d0d649179902db787cc7444b7b1dce76bcae3422f",
+        "sha256_in_prefix": "39d266a99e51d6749677580d0d649179902db787cc7444b7b1dce76bcae3422f",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Element.pod",
+        "path_type": "hardlink",
+        "sha256": "5ccf95956fac014d8609e9f14b9b24d0c2cc5b641e1386bb0265273ce6715b30",
+        "sha256_in_prefix": "5ccf95956fac014d8609e9f14b9b24d0c2cc5b641e1386bb0265273ce6715b30",
+        "size_in_bytes": 13806
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/ErrNo.pm",
+        "path_type": "hardlink",
+        "sha256": "6f7106e44301f097dd474d9eefa1bd0313dd7a7b9345f4b12494cdd76b57e7c7",
+        "sha256_in_prefix": "6f7106e44301f097dd474d9eefa1bd0313dd7a7b9345f4b12494cdd76b57e7c7",
+        "size_in_bytes": 28499
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/ErrNo.pod",
+        "path_type": "hardlink",
+        "sha256": "d783396648b449e0a7935dc150dce9c96e8534484dd376c759775eb4745657b3",
+        "sha256_in_prefix": "d783396648b449e0a7935dc150dce9c96e8534484dd376c759775eb4745657b3",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Error.pm",
+        "path_type": "hardlink",
+        "sha256": "713e38983ff4dbb2a958a7b9d4f7e370226635c15a6db2d5027ac3925ca06116",
+        "sha256_in_prefix": "713e38983ff4dbb2a958a7b9d4f7e370226635c15a6db2d5027ac3925ca06116",
+        "size_in_bytes": 8653
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Error.pod",
+        "path_type": "hardlink",
+        "sha256": "5ff1ace183664c66fe770bbfd4ac9dac49503ea3b0d18fcde2c279f4e66d9561",
+        "sha256_in_prefix": "5ff1ace183664c66fe770bbfd4ac9dac49503ea3b0d18fcde2c279f4e66d9561",
+        "size_in_bytes": 6121
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/InputCallback.pod",
+        "path_type": "hardlink",
+        "sha256": "be6b5d661fe912a2d26894517b511e0fc375cd94f51e4e8c23b95b3d845615dc",
+        "sha256_in_prefix": "be6b5d661fe912a2d26894517b511e0fc375cd94f51e4e8c23b95b3d845615dc",
+        "size_in_bytes": 9822
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Literal.pm",
+        "path_type": "hardlink",
+        "sha256": "0e0d42863e46be91101ff70b51bca8e5fc642bc795920eb1ad59eaa65be6600b",
+        "sha256_in_prefix": "0e0d42863e46be91101ff70b51bca8e5fc642bc795920eb1ad59eaa65be6600b",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Namespace.pod",
+        "path_type": "hardlink",
+        "sha256": "e9ac7f117cf7e80fc9a093d9bdbee1893d1ab5232d97ad8cf6e62a8348ec69e3",
+        "sha256_in_prefix": "e9ac7f117cf7e80fc9a093d9bdbee1893d1ab5232d97ad8cf6e62a8348ec69e3",
+        "size_in_bytes": 3362
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Node.pod",
+        "path_type": "hardlink",
+        "sha256": "62f1c9b0e68a9c642da8d95c9078a4f27bc742383d41297fdd8bf80e87d53f9a",
+        "sha256_in_prefix": "62f1c9b0e68a9c642da8d95c9078a4f27bc742383d41297fdd8bf80e87d53f9a",
+        "size_in_bytes": 25999
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/NodeList.pm",
+        "path_type": "hardlink",
+        "sha256": "2d6851be4a1374dd561cbd697a67dbe882f3f542b85d987da6f9dbba5f0183f2",
+        "sha256_in_prefix": "2d6851be4a1374dd561cbd697a67dbe882f3f542b85d987da6f9dbba5f0183f2",
+        "size_in_bytes": 7489
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Number.pm",
+        "path_type": "hardlink",
+        "sha256": "552feee3c9d5314f68e04dedc09d00dac438217ba2198f4f28ad73c898207011",
+        "sha256_in_prefix": "552feee3c9d5314f68e04dedc09d00dac438217ba2198f4f28ad73c898207011",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/PI.pod",
+        "path_type": "hardlink",
+        "sha256": "f0097fa58041ea88a6e24b6f6613ccd8ff0a49a34f4760b9ef971b0e6388bb15",
+        "sha256_in_prefix": "f0097fa58041ea88a6e24b6f6613ccd8ff0a49a34f4760b9ef971b0e6388bb15",
+        "size_in_bytes": 2271
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Parser.pod",
+        "path_type": "hardlink",
+        "sha256": "e104f29e79f52124b5b433fff4fe2b3cdf8ec754a4c672fd59461b893f95ea6f",
+        "sha256_in_prefix": "e104f29e79f52124b5b433fff4fe2b3cdf8ec754a4c672fd59461b893f95ea6f",
+        "size_in_bytes": 28453
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Pattern.pod",
+        "path_type": "hardlink",
+        "sha256": "cab59d21390976b031e7258f905f5be65e97628800cfc79b8d0eb138576da1be",
+        "sha256_in_prefix": "cab59d21390976b031e7258f905f5be65e97628800cfc79b8d0eb138576da1be",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Reader.pm",
+        "path_type": "hardlink",
+        "sha256": "f88b76418ae6906f95d938c9dc69d7abc3c8cc33f382e0cde1a3acfbfff888c9",
+        "sha256_in_prefix": "f88b76418ae6906f95d938c9dc69d7abc3c8cc33f382e0cde1a3acfbfff888c9",
+        "size_in_bytes": 5887
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Reader.pod",
+        "path_type": "hardlink",
+        "sha256": "722689c436727c0254937c7028b03ce6f26d3aa7a27e6ac67571a13ea99af9f1",
+        "sha256_in_prefix": "722689c436727c0254937c7028b03ce6f26d3aa7a27e6ac67571a13ea99af9f1",
+        "size_in_bytes": 18023
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/RegExp.pod",
+        "path_type": "hardlink",
+        "sha256": "6daef8288d36108cb9473194847abb90719a1a1fb3a18162040d7e23b24ffdc3",
+        "sha256_in_prefix": "6daef8288d36108cb9473194847abb90719a1a1fb3a18162040d7e23b24ffdc3",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/RelaxNG.pod",
+        "path_type": "hardlink",
+        "sha256": "1082b016a6d2b9c0ec5b26286aa528e9093f25b9c3422857a251807a4c167d86",
+        "sha256_in_prefix": "1082b016a6d2b9c0ec5b26286aa528e9093f25b9c3422857a251807a4c167d86",
+        "size_in_bytes": 2398
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX.pm",
+        "path_type": "hardlink",
+        "sha256": "04cd191b5258fba7f8d75affb192ac79783208db4f8c3802c2e9f90a220eb410",
+        "sha256_in_prefix": "04cd191b5258fba7f8d75affb192ac79783208db4f8c3802c2e9f90a220eb410",
+        "size_in_bytes": 3532
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX.pod",
+        "path_type": "hardlink",
+        "sha256": "1e1a30a38b923e6c563fd114e7d0ead22af95fbd0879856015ef7937557e7ae1",
+        "sha256_in_prefix": "1e1a30a38b923e6c563fd114e7d0ead22af95fbd0879856015ef7937557e7ae1",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Builder.pm",
+        "path_type": "hardlink",
+        "sha256": "4703c6edf10019fb9ba7826aa3132368bee70390cd7633abb6adb5c63c2d852f",
+        "sha256_in_prefix": "4703c6edf10019fb9ba7826aa3132368bee70390cd7633abb6adb5c63c2d852f",
+        "size_in_bytes": 8382
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Builder.pod",
+        "path_type": "hardlink",
+        "sha256": "2baa3b8accc2627812c5ffc28f0906814631118661ec3ff071f94ba6ba475971",
+        "sha256_in_prefix": "2baa3b8accc2627812c5ffc28f0906814631118661ec3ff071f94ba6ba475971",
+        "size_in_bytes": 1232
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Generator.pm",
+        "path_type": "hardlink",
+        "sha256": "1a17d6077548ee7782282d31b3e518ffc2d937dd765148680c7804b4c5443e60",
+        "sha256_in_prefix": "1a17d6077548ee7782282d31b3e518ffc2d937dd765148680c7804b4c5443e60",
+        "size_in_bytes": 3994
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/SAX/Parser.pm",
+        "path_type": "hardlink",
+        "sha256": "e28514c9f59aeab9505c9d6381a98221415e7f3406084ba87b2f88b8ce9adb57",
+        "sha256_in_prefix": "e28514c9f59aeab9505c9d6381a98221415e7f3406084ba87b2f88b8ce9adb57",
+        "size_in_bytes": 7854
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Schema.pod",
+        "path_type": "hardlink",
+        "sha256": "e9ecc033e36fe8e67dcbd5a3ccdfab69e7744e04a5bbceb6b15bae3b59eaf803",
+        "sha256_in_prefix": "e9ecc033e36fe8e67dcbd5a3ccdfab69e7744e04a5bbceb6b15bae3b59eaf803",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/Text.pod",
+        "path_type": "hardlink",
+        "sha256": "aca60b090828b38390b0073c3b52d0783ce36a9ebd2c1467ed84428bafba557a",
+        "sha256_in_prefix": "aca60b090828b38390b0073c3b52d0783ce36a9ebd2c1467ed84428bafba557a",
+        "size_in_bytes": 5601
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/XPathContext.pm",
+        "path_type": "hardlink",
+        "sha256": "407780f5c6e46b079daf8c74de10b78d6c467b034fdeec8d51fa7574c92d1a92",
+        "sha256_in_prefix": "407780f5c6e46b079daf8c74de10b78d6c467b034fdeec8d51fa7574c92d1a92",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/XPathContext.pod",
+        "path_type": "hardlink",
+        "sha256": "09f94f14743e8379b0ebba54f7d8529bdb263d8f7af02687ebdf596576c827c5",
+        "sha256_in_prefix": "09f94f14743e8379b0ebba54f7d8529bdb263d8f7af02687ebdf596576c827c5",
+        "size_in_bytes": 11767
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/XML/LibXML/XPathExpression.pod",
+        "path_type": "hardlink",
+        "sha256": "a5dd5d275ed2a5c73102a809d768c1cbe441ec50d66d83ab16ad2a82a302088b",
+        "sha256_in_prefix": "a5dd5d275ed2a5c73102a809d768c1cbe441ec50d66d83ab16ad2a82a302088b",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/XML/LibXML/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-xml-libxml_1648501635190/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "cef9785faa7253079937eb5c27feb0879c961a2dc95115021f677342fbcf27f8",
+        "sha256_in_prefix": "7e0a2ef16b37bd898aafafeb826c7e2d07547f7d77830bd3ab849f473573d1d2",
+        "size_in_bytes": 27281
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/XML/LibXML/LibXML.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-xml-libxml_1648501635190/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "691c85234fde956586acf46ed4b7fefdf7d9dece85f54bc11a0ef4dc19b6a211",
+        "sha256_in_prefix": "96f77e736d1c8199503e265898d6016f73a33e332c62cb9d2e4e786bd99cb908",
+        "size_in_bytes": 466176
+      },
+      {
+        "_path": "man/man3/XML::LibXML.3",
+        "path_type": "hardlink",
+        "sha256": "ae092634b40858716795d13e03a6a097995f8f7af36a602adeac956c050b8f4f",
+        "sha256_in_prefix": "ae092634b40858716795d13e03a6a097995f8f7af36a602adeac956c050b8f4f",
+        "size_in_bytes": 19386
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Attr.3",
+        "path_type": "hardlink",
+        "sha256": "36975dc863d30214412ee13a444200ac855cdc7b088a3656f1fab2d1aa7e0a5b",
+        "sha256_in_prefix": "36975dc863d30214412ee13a444200ac855cdc7b088a3656f1fab2d1aa7e0a5b",
+        "size_in_bytes": 6869
+      },
+      {
+        "_path": "man/man3/XML::LibXML::AttributeHash.3",
+        "path_type": "hardlink",
+        "sha256": "46dc8d3910ee7f0d909a943e3c838b65ccd95efff581d393ac27d5f285622a38",
+        "sha256_in_prefix": "46dc8d3910ee7f0d909a943e3c838b65ccd95efff581d393ac27d5f285622a38",
+        "size_in_bytes": 3905
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Boolean.3",
+        "path_type": "hardlink",
+        "sha256": "f0bd2e12f4d9f0c5ee5a736ae5104c5740338454dedf51193af36382710e76ad",
+        "sha256_in_prefix": "f0bd2e12f4d9f0c5ee5a736ae5104c5740338454dedf51193af36382710e76ad",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "man/man3/XML::LibXML::CDATASection.3",
+        "path_type": "hardlink",
+        "sha256": "85bec895ff03925e4c27d42279a5e889fa7c66ae24450fb7eeeba3c2dcee3663",
+        "sha256_in_prefix": "85bec895ff03925e4c27d42279a5e889fa7c66ae24450fb7eeeba3c2dcee3663",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Comment.3",
+        "path_type": "hardlink",
+        "sha256": "c4ea6a54fd6b711f5e62b388345a322d682f169a133e78b64937d9a005116295",
+        "sha256_in_prefix": "c4ea6a54fd6b711f5e62b388345a322d682f169a133e78b64937d9a005116295",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Common.3",
+        "path_type": "hardlink",
+        "sha256": "b08f15e797a6c5848b7e07d838465f70151a46c8128f7d55f467e5332412b436",
+        "sha256_in_prefix": "b08f15e797a6c5848b7e07d838465f70151a46c8128f7d55f467e5332412b436",
+        "size_in_bytes": 6391
+      },
+      {
+        "_path": "man/man3/XML::LibXML::DOM.3",
+        "path_type": "hardlink",
+        "sha256": "95f2cb2ad1f33cb78e5c4926a4d8881a990b7680e171df26166112725ef24993",
+        "sha256_in_prefix": "95f2cb2ad1f33cb78e5c4926a4d8881a990b7680e171df26166112725ef24993",
+        "size_in_bytes": 9128
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Devel.3",
+        "path_type": "hardlink",
+        "sha256": "8bb42a247fa0f87b92eedce45bd69a755ef41025b447f9f9ac57cd346313138a",
+        "sha256_in_prefix": "8bb42a247fa0f87b92eedce45bd69a755ef41025b447f9f9ac57cd346313138a",
+        "size_in_bytes": 7207
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Document.3",
+        "path_type": "hardlink",
+        "sha256": "d9b24fa0c5f56a5109987cf48e368f6d2c243e863f5feff14e809ea1691dc498",
+        "sha256_in_prefix": "d9b24fa0c5f56a5109987cf48e368f6d2c243e863f5feff14e809ea1691dc498",
+        "size_in_bytes": 26748
+      },
+      {
+        "_path": "man/man3/XML::LibXML::DocumentFragment.3",
+        "path_type": "hardlink",
+        "sha256": "e5b614484cef3bc10d5e3cec424df2eedfe4f0f09671b84d03e346820e938e0b",
+        "sha256_in_prefix": "e5b614484cef3bc10d5e3cec424df2eedfe4f0f09671b84d03e346820e938e0b",
+        "size_in_bytes": 3180
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Dtd.3",
+        "path_type": "hardlink",
+        "sha256": "0003ec75a00048e22f70a5934cfc62405d1e084ed7dc875bd19865021d58724b",
+        "sha256_in_prefix": "0003ec75a00048e22f70a5934cfc62405d1e084ed7dc875bd19865021d58724b",
+        "size_in_bytes": 4688
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Element.3",
+        "path_type": "hardlink",
+        "sha256": "c01d451bac6efd5906664d164073cee4fb38ce1a14607d27abf5d946cc2574f7",
+        "sha256_in_prefix": "c01d451bac6efd5906664d164073cee4fb38ce1a14607d27abf5d946cc2574f7",
+        "size_in_bytes": 17657
+      },
+      {
+        "_path": "man/man3/XML::LibXML::ErrNo.3",
+        "path_type": "hardlink",
+        "sha256": "e7f62d88c3fdd04939cfcb6ff3cbb735fe3677b5a08f7cd74269d659c983baef",
+        "sha256_in_prefix": "e7f62d88c3fdd04939cfcb6ff3cbb735fe3677b5a08f7cd74269d659c983baef",
+        "size_in_bytes": 2901
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Error.3",
+        "path_type": "hardlink",
+        "sha256": "1b61ec548864b53de3b3499af95867661aebe229603c01eb9c33900728a1a699",
+        "sha256_in_prefix": "1b61ec548864b53de3b3499af95867661aebe229603c01eb9c33900728a1a699",
+        "size_in_bytes": 9413
+      },
+      {
+        "_path": "man/man3/XML::LibXML::InputCallback.3",
+        "path_type": "hardlink",
+        "sha256": "3a8c0e48fcf4fee4b332899563baa9741eacb6d1fd262f378d85f105f12ce130",
+        "sha256_in_prefix": "3a8c0e48fcf4fee4b332899563baa9741eacb6d1fd262f378d85f105f12ce130",
+        "size_in_bytes": 13563
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Literal.3",
+        "path_type": "hardlink",
+        "sha256": "327a1c1cd4b46402373785010337767060bbe2cb5f2a3e6ea62eeb79d1ce6311",
+        "sha256_in_prefix": "327a1c1cd4b46402373785010337767060bbe2cb5f2a3e6ea62eeb79d1ce6311",
+        "size_in_bytes": 3231
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Namespace.3",
+        "path_type": "hardlink",
+        "sha256": "68d1c5765f6553dc0f10ab1dbfe1fbedea820f31e3b143f2bbf38a7dec93500e",
+        "sha256_in_prefix": "68d1c5765f6553dc0f10ab1dbfe1fbedea820f31e3b143f2bbf38a7dec93500e",
+        "size_in_bytes": 6219
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Node.3",
+        "path_type": "hardlink",
+        "sha256": "7a2115f91fb9b3e071e7068ececde308eb9be70398383178cfd00a5371cea240",
+        "sha256_in_prefix": "7a2115f91fb9b3e071e7068ececde308eb9be70398383178cfd00a5371cea240",
+        "size_in_bytes": 31492
+      },
+      {
+        "_path": "man/man3/XML::LibXML::NodeList.3",
+        "path_type": "hardlink",
+        "sha256": "431ae60389aff269ed7809d4c7eb63a598c6048f44727664124f1690256385e2",
+        "sha256_in_prefix": "431ae60389aff269ed7809d4c7eb63a598c6048f44727664124f1690256385e2",
+        "size_in_bytes": 5745
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Number.3",
+        "path_type": "hardlink",
+        "sha256": "c093800f6b57910c571ae1bbd8fc4034f21b2d3a28485ad21fcb1e787f4d8324",
+        "sha256_in_prefix": "c093800f6b57910c571ae1bbd8fc4034f21b2d3a28485ad21fcb1e787f4d8324",
+        "size_in_bytes": 2827
+      },
+      {
+        "_path": "man/man3/XML::LibXML::PI.3",
+        "path_type": "hardlink",
+        "sha256": "efc7024c875ee387869c2a441263fa9bb64e9740562b1f048e3bc8693186a415",
+        "sha256_in_prefix": "efc7024c875ee387869c2a441263fa9bb64e9740562b1f048e3bc8693186a415",
+        "size_in_bytes": 4772
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Parser.3",
+        "path_type": "hardlink",
+        "sha256": "5ad1cff4e83889ea8d09fb6cd48e843c5ce55db39f1bcd636ddecfda20171bf2",
+        "sha256_in_prefix": "5ad1cff4e83889ea8d09fb6cd48e843c5ce55db39f1bcd636ddecfda20171bf2",
+        "size_in_bytes": 33930
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Pattern.3",
+        "path_type": "hardlink",
+        "sha256": "8150ef9c5be666f217fc42fa48a1e3e16df55e9825044af9dc7040b1cc02463a",
+        "sha256_in_prefix": "8150ef9c5be666f217fc42fa48a1e3e16df55e9825044af9dc7040b1cc02463a",
+        "size_in_bytes": 5639
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Reader.3",
+        "path_type": "hardlink",
+        "sha256": "e2de67d5832f369e16b823a44ae13c7850e7dcd3349142d09fbd59481ec0552c",
+        "sha256_in_prefix": "e2de67d5832f369e16b823a44ae13c7850e7dcd3349142d09fbd59481ec0552c",
+        "size_in_bytes": 23083
+      },
+      {
+        "_path": "man/man3/XML::LibXML::RegExp.3",
+        "path_type": "hardlink",
+        "sha256": "00926271c0e59f99141f77c3bd2e38cfc24eb75b045099705a8e1f77b65a19e8",
+        "sha256_in_prefix": "00926271c0e59f99141f77c3bd2e38cfc24eb75b045099705a8e1f77b65a19e8",
+        "size_in_bytes": 4063
+      },
+      {
+        "_path": "man/man3/XML::LibXML::RelaxNG.3",
+        "path_type": "hardlink",
+        "sha256": "bb5a87cee3f72d2e7ff3bf78025123ad58ee501e6a593ba79e564b13684c37fe",
+        "sha256_in_prefix": "bb5a87cee3f72d2e7ff3bf78025123ad58ee501e6a593ba79e564b13684c37fe",
+        "size_in_bytes": 4883
+      },
+      {
+        "_path": "man/man3/XML::LibXML::SAX.3",
+        "path_type": "hardlink",
+        "sha256": "afcbdc68d11fc857da17ca93f87a457a02deb117c120576582472e335b54a7d9",
+        "sha256_in_prefix": "afcbdc68d11fc857da17ca93f87a457a02deb117c120576582472e335b54a7d9",
+        "size_in_bytes": 4245
+      },
+      {
+        "_path": "man/man3/XML::LibXML::SAX::Builder.3",
+        "path_type": "hardlink",
+        "sha256": "88b5b49c58845cec71eafa20479254b120a421586fd20cb508d5d0b1746bb34d",
+        "sha256_in_prefix": "88b5b49c58845cec71eafa20479254b120a421586fd20cb508d5d0b1746bb34d",
+        "size_in_bytes": 3682
+      },
+      {
+        "_path": "man/man3/XML::LibXML::SAX::Generator.3",
+        "path_type": "hardlink",
+        "sha256": "8c1e4ed6dea929ebc7ec9ef7004ea0169f1338e759e33de226f1e3efdedfe1b5",
+        "sha256_in_prefix": "8c1e4ed6dea929ebc7ec9ef7004ea0169f1338e759e33de226f1e3efdedfe1b5",
+        "size_in_bytes": 3172
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Schema.3",
+        "path_type": "hardlink",
+        "sha256": "22a4cb529b92399bfb329a2c1b98c66d9a36e3f7689784c8854f23c4d09791f2",
+        "sha256_in_prefix": "22a4cb529b92399bfb329a2c1b98c66d9a36e3f7689784c8854f23c4d09791f2",
+        "size_in_bytes": 4728
+      },
+      {
+        "_path": "man/man3/XML::LibXML::Text.3",
+        "path_type": "hardlink",
+        "sha256": "78e59bb15791224c8f7b01f99e258c3b2c37df9cd974600e3f3b45c2b25df8d9",
+        "sha256_in_prefix": "78e59bb15791224c8f7b01f99e258c3b2c37df9cd974600e3f3b45c2b25df8d9",
+        "size_in_bytes": 9113
+      },
+      {
+        "_path": "man/man3/XML::LibXML::XPathContext.3",
+        "path_type": "hardlink",
+        "sha256": "acf3c92a4ed231256ebb16d78b1ceb4bc5884ee7b4e44fde8bb913c21fbf6129",
+        "sha256_in_prefix": "acf3c92a4ed231256ebb16d78b1ceb4bc5884ee7b4e44fde8bb913c21fbf6129",
+        "size_in_bytes": 15389
+      },
+      {
+        "_path": "man/man3/XML::LibXML::XPathExpression.3",
+        "path_type": "hardlink",
+        "sha256": "82a2b2c7a65b60ba17fe79db42576d1c8e340cec8013746451f33336fea8335d",
+        "sha256_in_prefix": "82a2b2c7a65b60ba17fe79db42576d1c8e340cec8013746451f33336fea8335d",
+        "size_in_bytes": 4115
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "089cb685d7badb14991ce85580238131fef84ac64e15a74f026c11259dd93427",
+  "size": 258537,
+  "subdir": "linux-64",
+  "timestamp": 1648501774000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-xml-libxml-2.0207-pl5321h661654b_0.tar.bz2",
+  "version": "2.0207"
+}

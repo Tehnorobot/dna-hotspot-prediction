@@ -1,0 +1,17 @@
+{
+   "alien_build_version" : "2.48",
+   "cflags" : "-I/opt/conda/include/libxml2 -I/opt/conda/include",
+   "cflags_static" : "-I/opt/conda/include/libxml2 -I/opt/conda/include",
+   "install_type" : "system",
+   "legacy" : {
+      "finished_installing" : 1,
+      "install_type" : "system",
+      "original_prefix" : "/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2",
+      "version" : "2.9.12"
+   },
+   "libs" : "-L/opt/conda/lib -lxml2 -L/opt/conda/lib -lz -L/opt/conda/lib -llzma -L/opt/conda/lib -liconv -L/opt/conda/lib -licui18n -licuuc -licudata -lm -ldl",
+   "libs_static" : "-L/opt/conda/lib -lxml2 -L/opt/conda/lib -lz -L/opt/conda/lib -llzma -L/opt/conda/lib -liconv -L/opt/conda/lib -licui18n -licuuc -licudata -lm -ldl",
+   "perl_module_version" : "0.17",
+   "prefix" : "/home/team_2/pipeline/.snakemake/conda/82b0b2b2f02970b51c62a92f2962cdad_/lib/perl5/5.32/site_perl/auto/share/dist/Alien-Libxml2",
+   "version" : "2.9.12"
+}

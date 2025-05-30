@@ -1,0 +1,62 @@
+{
+  "build": "pl5321hdfd78af_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl-pathtools",
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-file-chdir-0.1010-pl5321hdfd78af_3",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/File/chdir/.packlist",
+    "lib/perl5/site_perl/File/chdir.pm",
+    "man/man3/File::chdir.3"
+  ],
+  "fn": "perl-file-chdir-0.1010-pl5321hdfd78af_3.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-file-chdir-0.1010-pl5321hdfd78af_3",
+    "type": 1
+  },
+  "md5": "e798e535d062ee1e3ab69b6c37d6535b",
+  "name": "perl-file-chdir",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-file-chdir-0.1010-pl5321hdfd78af_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/File/chdir/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-file-chdir_1642600951316/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "4e2373d7a6ec47c40a5af98a7e52fcf815e6a8afadde010f681719ff9769f070",
+        "sha256_in_prefix": "6d911c87fc7475ac8fd5934c3afe46851f0cb281276ffefcfe2c242f15b44b52",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "lib/perl5/site_perl/File/chdir.pm",
+        "path_type": "hardlink",
+        "sha256": "3a121ae623e689bbed0b282b1d5230460c7ece4dfee3bcb7087bfc7585b24715",
+        "sha256_in_prefix": "3a121ae623e689bbed0b282b1d5230460c7ece4dfee3bcb7087bfc7585b24715",
+        "size_in_bytes": 10844
+      },
+      {
+        "_path": "man/man3/File::chdir.3",
+        "path_type": "hardlink",
+        "sha256": "65e993cea3e958e9ab2cc882850799410182c5b2a17cb62e3e79654be3cb068f",
+        "sha256_in_prefix": "65e993cea3e958e9ab2cc882850799410182c5b2a17cb62e3e79654be3cb068f",
+        "size_in_bytes": 10243
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6644ce594a359e1f38c4d01c47c62e843689ed730e6d87f29a204f597fc09159",
+  "size": 13369,
+  "subdir": "noarch",
+  "timestamp": 1642601223000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-file-chdir-0.1010-pl5321hdfd78af_3.tar.bz2",
+  "version": "0.1010"
+}

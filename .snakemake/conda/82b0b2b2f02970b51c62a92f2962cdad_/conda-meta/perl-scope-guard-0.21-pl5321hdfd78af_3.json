@@ -1,0 +1,61 @@
+{
+  "build": "pl5321hdfd78af_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-scope-guard-0.21-pl5321hdfd78af_3",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Scope/Guard/.packlist",
+    "lib/perl5/site_perl/Scope/Guard.pm",
+    "man/man3/Scope::Guard.3"
+  ],
+  "fn": "perl-scope-guard-0.21-pl5321hdfd78af_3.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-scope-guard-0.21-pl5321hdfd78af_3",
+    "type": 1
+  },
+  "md5": "5140ccada54e153883ccb0e1a6ff6bfd",
+  "name": "perl-scope-guard",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-scope-guard-0.21-pl5321hdfd78af_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Scope/Guard/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-scope-guard_1642643908064/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "56f482479183244f4e3d9a43cec5f9efeba0dac421b31bc5ef6462d58b87197e",
+        "sha256_in_prefix": "9dc0d90b9971117ee8e3f3d337ccd6bb7b71370fcbdb44ef423571f0cf8887a5",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/perl5/site_perl/Scope/Guard.pm",
+        "path_type": "hardlink",
+        "sha256": "f42cfc0757ebe48718eba98460b697a0170c349ae1de36849ed22e13a82c76e1",
+        "sha256_in_prefix": "f42cfc0757ebe48718eba98460b697a0170c349ae1de36849ed22e13a82c76e1",
+        "size_in_bytes": 3794
+      },
+      {
+        "_path": "man/man3/Scope::Guard.3",
+        "path_type": "hardlink",
+        "sha256": "432c53a80fdab0386e9a4bd00048f015fa4970bb80bb8d61e48ecebdc845821c",
+        "sha256_in_prefix": "432c53a80fdab0386e9a4bd00048f015fa4970bb80bb8d61e48ecebdc845821c",
+        "size_in_bytes": 5586
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c02a6a175657997f53f949c580691105dac02556a61ff763d856a892d0c6246a",
+  "size": 10101,
+  "subdir": "noarch",
+  "timestamp": 1642644203000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-scope-guard-0.21-pl5321hdfd78af_3.tar.bz2",
+  "version": "0.21"
+}

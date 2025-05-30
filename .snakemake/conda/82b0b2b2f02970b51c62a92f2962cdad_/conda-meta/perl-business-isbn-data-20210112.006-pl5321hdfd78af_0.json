@@ -1,0 +1,86 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl-carp",
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-business-isbn-data-20210112.006-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Business/ISBN/Data/.packlist",
+    "lib/perl5/site_perl/Business/ISBN/Data.pm",
+    "lib/perl5/site_perl/Business/ISBN/RangeMessage.url",
+    "lib/perl5/site_perl/Business/ISBN/RangeMessage.xml",
+    "lib/perl5/site_perl/Business/ISBN/make_data.pl",
+    "man/man3/Business::ISBN::Data.3"
+  ],
+  "fn": "perl-business-isbn-data-20210112.006-pl5321hdfd78af_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-business-isbn-data-20210112.006-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "9b57a4df4970f5d01a1da0f1807b862e",
+  "name": "perl-business-isbn-data",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-business-isbn-data-20210112.006-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Business/ISBN/Data/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-business-isbn-data_1644833295783/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b3a99ac56f95bd8c2cd8bfbfd2a20c3b90a8ef38e4dc2c7b2212648988e109f5",
+        "sha256_in_prefix": "af3813411a04079cf4c75285d8da075d07653235e26d2103b7b9a2ce5316a9f4",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN/Data.pm",
+        "path_type": "hardlink",
+        "sha256": "28a701f7f604bd6e59eb5e5a93ee982d9cda3a69b023d16be54a58b616a7eed6",
+        "sha256_in_prefix": "28a701f7f604bd6e59eb5e5a93ee982d9cda3a69b023d16be54a58b616a7eed6",
+        "size_in_bytes": 38782
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN/RangeMessage.url",
+        "path_type": "hardlink",
+        "sha256": "3c41b88fc4d8ba751a4b0b936b4d239201db15fea7ca8b52fb6e5bfb63fe8181",
+        "sha256_in_prefix": "3c41b88fc4d8ba751a4b0b936b4d239201db15fea7ca8b52fb6e5bfb63fe8181",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN/RangeMessage.xml",
+        "path_type": "hardlink",
+        "sha256": "433eda066efd0897b875017aa2e37e52703b2164febeaee69f920ee123d45fc7",
+        "sha256_in_prefix": "433eda066efd0897b875017aa2e37e52703b2164febeaee69f920ee123d45fc7",
+        "size_in_bytes": 174160
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN/make_data.pl",
+        "path_type": "hardlink",
+        "sha256": "6c4600823e37eb9ee95bab02b36413ee5382e72b5e4b6456546617a5f8f5caac",
+        "sha256_in_prefix": "6c4600823e37eb9ee95bab02b36413ee5382e72b5e4b6456546617a5f8f5caac",
+        "size_in_bytes": 775
+      },
+      {
+        "_path": "man/man3/Business::ISBN::Data.3",
+        "path_type": "hardlink",
+        "sha256": "712074b2edf869e870e4a9f7e0d83c0e29bf622c22e9eafe7d01f4131413b09b",
+        "sha256_in_prefix": "712074b2edf869e870e4a9f7e0d83c0e29bf622c22e9eafe7d01f4131413b09b",
+        "size_in_bytes": 6269
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dbd5074c66838c9f6e52607df5b94d992f81a9e405231405da5bf38b81bb9007",
+  "size": 21309,
+  "subdir": "noarch",
+  "timestamp": 1644833542000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-business-isbn-data-20210112.006-pl5321hdfd78af_0.tar.bz2",
+  "version": "20210112.006"
+}

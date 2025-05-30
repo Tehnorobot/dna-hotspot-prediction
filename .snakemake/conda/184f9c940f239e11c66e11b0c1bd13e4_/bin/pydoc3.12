@@ -1,0 +1,5 @@
+#!/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/184f9c940f239e11c66e11b0c1bd13e4_/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

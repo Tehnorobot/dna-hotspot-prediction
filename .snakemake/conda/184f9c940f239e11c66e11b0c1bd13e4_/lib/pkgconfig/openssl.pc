@@ -1,0 +1,9 @@
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/184f9c940f239e11c66e11b0c1bd13e4_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include 
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.5.0
+Requires: libssl libcrypto

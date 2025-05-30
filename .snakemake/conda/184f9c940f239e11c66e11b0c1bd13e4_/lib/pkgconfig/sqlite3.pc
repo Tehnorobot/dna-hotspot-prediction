@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/184f9c940f239e11c66e11b0c1bd13e4_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.46.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -lm -ldl -lpthread 
+Cflags: -I${includedir}

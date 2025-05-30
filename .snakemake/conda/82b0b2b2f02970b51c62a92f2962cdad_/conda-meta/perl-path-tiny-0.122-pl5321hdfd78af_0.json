@@ -1,0 +1,61 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-path-tiny-0.122-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Path/Tiny/.packlist",
+    "lib/perl5/site_perl/Path/Tiny.pm",
+    "man/man3/Path::Tiny.3"
+  ],
+  "fn": "perl-path-tiny-0.122-pl5321hdfd78af_0.tar.bz2",
+  "license": "apache_2_0",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-path-tiny-0.122-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "1c23854eee00ff2a1a4a6c4be04c12a6",
+  "name": "perl-path-tiny",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-path-tiny-0.122-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Path/Tiny/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-path-tiny_1644442779821/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "2a43c40096ad5bf594e685b80a3143cdf7b8972fb641b9bbd04d29de43e8f843",
+        "sha256_in_prefix": "3549164b0d55e67c8ba84c29f428b98d1c1f80008ce84c553a951d22212e7006",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "lib/perl5/site_perl/Path/Tiny.pm",
+        "path_type": "hardlink",
+        "sha256": "f031df10931b266fb9ad0c7f76e25522b992094b35208293ed687af2c5024c8a",
+        "sha256_in_prefix": "f031df10931b266fb9ad0c7f76e25522b992094b35208293ed687af2c5024c8a",
+        "size_in_bytes": 118945
+      },
+      {
+        "_path": "man/man3/Path::Tiny.3",
+        "path_type": "hardlink",
+        "sha256": "ab3331a88009feed6fc7e8be93c9a34ccd854e3b572234a71ae0f4fffefd39f3",
+        "sha256_in_prefix": "ab3331a88009feed6fc7e8be93c9a34ccd854e3b572234a71ae0f4fffefd39f3",
+        "size_in_bytes": 52350
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aa8aaac5c14cc9eab0a3fd866765448cf56d07021cc678b49947ccf560791f6c",
+  "size": 40641,
+  "subdir": "noarch",
+  "timestamp": 1644443006000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-path-tiny-0.122-pl5321hdfd78af_0.tar.bz2",
+  "version": "0.122"
+}

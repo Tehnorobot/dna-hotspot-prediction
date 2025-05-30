@@ -1,0 +1,573 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl-carp",
+    "perl-exporter",
+    "perl-data-dumper",
+    "perl-constant",
+    "perl-parent",
+    "perl-encode",
+    "perl-mime-base64",
+    "perl-business-isbn",
+    "perl >=5.32.1,<6.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-uri-5.12-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/URI/.packlist",
+    "lib/perl5/site_perl/URI.pm",
+    "lib/perl5/site_perl/URI/Escape.pm",
+    "lib/perl5/site_perl/URI/Heuristic.pm",
+    "lib/perl5/site_perl/URI/IRI.pm",
+    "lib/perl5/site_perl/URI/QueryParam.pm",
+    "lib/perl5/site_perl/URI/Split.pm",
+    "lib/perl5/site_perl/URI/URL.pm",
+    "lib/perl5/site_perl/URI/WithBase.pm",
+    "lib/perl5/site_perl/URI/_foreign.pm",
+    "lib/perl5/site_perl/URI/_generic.pm",
+    "lib/perl5/site_perl/URI/_idna.pm",
+    "lib/perl5/site_perl/URI/_ldap.pm",
+    "lib/perl5/site_perl/URI/_login.pm",
+    "lib/perl5/site_perl/URI/_punycode.pm",
+    "lib/perl5/site_perl/URI/_query.pm",
+    "lib/perl5/site_perl/URI/_segment.pm",
+    "lib/perl5/site_perl/URI/_server.pm",
+    "lib/perl5/site_perl/URI/_userpass.pm",
+    "lib/perl5/site_perl/URI/data.pm",
+    "lib/perl5/site_perl/URI/file.pm",
+    "lib/perl5/site_perl/URI/file/Base.pm",
+    "lib/perl5/site_perl/URI/file/FAT.pm",
+    "lib/perl5/site_perl/URI/file/Mac.pm",
+    "lib/perl5/site_perl/URI/file/OS2.pm",
+    "lib/perl5/site_perl/URI/file/QNX.pm",
+    "lib/perl5/site_perl/URI/file/Unix.pm",
+    "lib/perl5/site_perl/URI/file/Win32.pm",
+    "lib/perl5/site_perl/URI/ftp.pm",
+    "lib/perl5/site_perl/URI/gopher.pm",
+    "lib/perl5/site_perl/URI/http.pm",
+    "lib/perl5/site_perl/URI/https.pm",
+    "lib/perl5/site_perl/URI/ldap.pm",
+    "lib/perl5/site_perl/URI/ldapi.pm",
+    "lib/perl5/site_perl/URI/ldaps.pm",
+    "lib/perl5/site_perl/URI/mailto.pm",
+    "lib/perl5/site_perl/URI/mms.pm",
+    "lib/perl5/site_perl/URI/news.pm",
+    "lib/perl5/site_perl/URI/nntp.pm",
+    "lib/perl5/site_perl/URI/nntps.pm",
+    "lib/perl5/site_perl/URI/pop.pm",
+    "lib/perl5/site_perl/URI/rlogin.pm",
+    "lib/perl5/site_perl/URI/rsync.pm",
+    "lib/perl5/site_perl/URI/rtsp.pm",
+    "lib/perl5/site_perl/URI/rtspu.pm",
+    "lib/perl5/site_perl/URI/sftp.pm",
+    "lib/perl5/site_perl/URI/sip.pm",
+    "lib/perl5/site_perl/URI/sips.pm",
+    "lib/perl5/site_perl/URI/snews.pm",
+    "lib/perl5/site_perl/URI/ssh.pm",
+    "lib/perl5/site_perl/URI/telnet.pm",
+    "lib/perl5/site_perl/URI/tn3270.pm",
+    "lib/perl5/site_perl/URI/urn.pm",
+    "lib/perl5/site_perl/URI/urn/isbn.pm",
+    "lib/perl5/site_perl/URI/urn/oid.pm",
+    "man/man3/URI.3",
+    "man/man3/URI::Escape.3",
+    "man/man3/URI::Heuristic.3",
+    "man/man3/URI::QueryParam.3",
+    "man/man3/URI::Split.3",
+    "man/man3/URI::URL.3",
+    "man/man3/URI::WithBase.3",
+    "man/man3/URI::_punycode.3",
+    "man/man3/URI::data.3",
+    "man/man3/URI::file.3",
+    "man/man3/URI::ldap.3"
+  ],
+  "fn": "perl-uri-5.12-pl5321hdfd78af_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-uri-5.12-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "6b571eaa643024a4bdaa12704928375f",
+  "name": "perl-uri",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-uri-5.12-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/URI/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-uri_1657499521718/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "85c228bfd2e2251d23cd0b14fa7821ecb2977edecb6acc42f7e05de61347f7a8",
+        "sha256_in_prefix": "07907eddc0e8cd0d0f2de7f420460ca0f5c7338c473c2d92d2bf0a915c5e8d3c",
+        "size_in_bytes": 21860
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI.pm",
+        "path_type": "hardlink",
+        "sha256": "5bb64533185c6365d8538085e91275286e06d10867b442d41ed0c1faf066aa8b",
+        "sha256_in_prefix": "5bb64533185c6365d8538085e91275286e06d10867b442d41ed0c1faf066aa8b",
+        "size_in_bytes": 38400
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/Escape.pm",
+        "path_type": "hardlink",
+        "sha256": "339212615ae0820750e7105305f7bbd1278a85898a51f0fe264cd94a771595f9",
+        "sha256_in_prefix": "339212615ae0820750e7105305f7bbd1278a85898a51f0fe264cd94a771595f9",
+        "size_in_bytes": 7061
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/Heuristic.pm",
+        "path_type": "hardlink",
+        "sha256": "ff3d31a150c8ce6b3994705f89b4635fa7d0a482def5aaef56e3de3edb556435",
+        "sha256_in_prefix": "ff3d31a150c8ce6b3994705f89b4635fa7d0a482def5aaef56e3de3edb556435",
+        "size_in_bytes": 6527
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/IRI.pm",
+        "path_type": "hardlink",
+        "sha256": "4ec88a7d615aa8bcd680e7a9d2881a0955dbab8a62b08a25ae30fa5bc9b3089f",
+        "sha256_in_prefix": "4ec88a7d615aa8bcd680e7a9d2881a0955dbab8a62b08a25ae30fa5bc9b3089f",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/QueryParam.pm",
+        "path_type": "hardlink",
+        "sha256": "ba6ce4fa94a37940f7baba79cc69c5c32e435fc72d8f60d3511c54a1850efca6",
+        "sha256_in_prefix": "ba6ce4fa94a37940f7baba79cc69c5c32e435fc72d8f60d3511c54a1850efca6",
+        "size_in_bytes": 4861
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/Split.pm",
+        "path_type": "hardlink",
+        "sha256": "b8dd4e442f2ef33ff68eefd6c2767919dea93f16ff2cf6ae73ada33f383c8a0a",
+        "sha256_in_prefix": "b8dd4e442f2ef33ff68eefd6c2767919dea93f16ff2cf6ae73ada33f383c8a0a",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/URL.pm",
+        "path_type": "hardlink",
+        "sha256": "6f80bdba8f131fd538e8d477a94c6dc92b165eeeda5e15f3f3df3939a9c239b3",
+        "sha256_in_prefix": "6f80bdba8f131fd538e8d477a94c6dc92b165eeeda5e15f3f3df3939a9c239b3",
+        "size_in_bytes": 5487
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/WithBase.pm",
+        "path_type": "hardlink",
+        "sha256": "7efa32d652379b0c623f7f5113c80b8384d269aef8011a27da355e2302d918b2",
+        "sha256_in_prefix": "7efa32d652379b0c623f7f5113c80b8384d269aef8011a27da355e2302d918b2",
+        "size_in_bytes": 3862
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_foreign.pm",
+        "path_type": "hardlink",
+        "sha256": "978c22ba635867f7a69e3d628b8d4b0034a7d70428b586dba99b530067eb9548",
+        "sha256_in_prefix": "978c22ba635867f7a69e3d628b8d4b0034a7d70428b586dba99b530067eb9548",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_generic.pm",
+        "path_type": "hardlink",
+        "sha256": "e4a6853ed3e8ace2a8be063c31f75d18640345f0a5f6020fa80a71f71504301d",
+        "sha256_in_prefix": "e4a6853ed3e8ace2a8be063c31f75d18640345f0a5f6020fa80a71f71504301d",
+        "size_in_bytes": 6821
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_idna.pm",
+        "path_type": "hardlink",
+        "sha256": "fca82096f57f53d0f2b0395eb2c87c32b144d7f791f68acd7c551e0b5b18b817",
+        "sha256_in_prefix": "fca82096f57f53d0f2b0395eb2c87c32b144d7f791f68acd7c551e0b5b18b817",
+        "size_in_bytes": 2079
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_ldap.pm",
+        "path_type": "hardlink",
+        "sha256": "972c60322ce0c99f3adc13b5b29e9f5dcf2ce1769a16aaf5011bf076bacf91e2",
+        "sha256_in_prefix": "972c60322ce0c99f3adc13b5b29e9f5dcf2ce1769a16aaf5011bf076bacf91e2",
+        "size_in_bytes": 3249
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_login.pm",
+        "path_type": "hardlink",
+        "sha256": "b587e593aa1fd60e1a7f4e47c6556375fb905a92e6355fb1c60a8d998c170e89",
+        "sha256_in_prefix": "b587e593aa1fd60e1a7f4e47c6556375fb905a92e6355fb1c60a8d998c170e89",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_punycode.pm",
+        "path_type": "hardlink",
+        "sha256": "2880655133fe585cb9f66ebfb43affa737ce6d9dda12418dcc290b673185ec28",
+        "sha256_in_prefix": "2880655133fe585cb9f66ebfb43affa737ce6d9dda12418dcc290b673185ec28",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_query.pm",
+        "path_type": "hardlink",
+        "sha256": "bd80d0a75c7d3a2124e37190b2f6d88b438988ab944215ba63de3ec630763ce9",
+        "sha256_in_prefix": "bd80d0a75c7d3a2124e37190b2f6d88b438988ab944215ba63de3ec630763ce9",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_segment.pm",
+        "path_type": "hardlink",
+        "sha256": "0a8dcb7fff73df02bc85652c2e57b063f6d83e5e290b2ed175d4dea70bf2fb99",
+        "sha256_in_prefix": "0a8dcb7fff73df02bc85652c2e57b063f6d83e5e290b2ed175d4dea70bf2fb99",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_server.pm",
+        "path_type": "hardlink",
+        "sha256": "973a714d182197101d39afa5700003491a35cb230bac5f8b7964a322618806e0",
+        "sha256_in_prefix": "973a714d182197101d39afa5700003491a35cb230bac5f8b7964a322618806e0",
+        "size_in_bytes": 3886
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/_userpass.pm",
+        "path_type": "hardlink",
+        "sha256": "8021a175f5f81c2330811d38dfa60d7f58df3afd421dbf4adb090bb80bd137da",
+        "sha256_in_prefix": "8021a175f5f81c2330811d38dfa60d7f58df3afd421dbf4adb090bb80bd137da",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/data.pm",
+        "path_type": "hardlink",
+        "sha256": "bf897ea348be8625a30c9477896907da7a5c2d16fc4c5a12a7867cbe34e0048c",
+        "sha256_in_prefix": "bf897ea348be8625a30c9477896907da7a5c2d16fc4c5a12a7867cbe34e0048c",
+        "size_in_bytes": 3390
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file.pm",
+        "path_type": "hardlink",
+        "sha256": "e7658511890488843d244f7b5c243965ad4e0f08cd685390b07dc79f2ecb8694",
+        "sha256_in_prefix": "e7658511890488843d244f7b5c243965ad4e0f08cd685390b07dc79f2ecb8694",
+        "size_in_bytes": 9760
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/Base.pm",
+        "path_type": "hardlink",
+        "sha256": "110c93d4554e491f74016316de3c59b5f6e9b2ee85fc21fa150b18228c7b4456",
+        "sha256_in_prefix": "110c93d4554e491f74016316de3c59b5f6e9b2ee85fc21fa150b18228c7b4456",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/FAT.pm",
+        "path_type": "hardlink",
+        "sha256": "ed5ad98e61817184191adde184bb628de59984bbe8a847adba6ce697db3009c1",
+        "sha256_in_prefix": "ed5ad98e61817184191adde184bb628de59984bbe8a847adba6ce697db3009c1",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/Mac.pm",
+        "path_type": "hardlink",
+        "sha256": "b6731e115410c70291b6beebb8c34e15013a9be4fc79013b131fac1a768d52a8",
+        "sha256_in_prefix": "b6731e115410c70291b6beebb8c34e15013a9be4fc79013b131fac1a768d52a8",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/OS2.pm",
+        "path_type": "hardlink",
+        "sha256": "537ac4d8fbec58114cad918093b7a604a047fcd5a440a1297c99b6c251d4c991",
+        "sha256_in_prefix": "537ac4d8fbec58114cad918093b7a604a047fcd5a440a1297c99b6c251d4c991",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/QNX.pm",
+        "path_type": "hardlink",
+        "sha256": "58c8be0f08a86d9f19dbf23461e9706b6e8699eee2144c8f0775f183ded4ac6f",
+        "sha256_in_prefix": "58c8be0f08a86d9f19dbf23461e9706b6e8699eee2144c8f0775f183ded4ac6f",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/Unix.pm",
+        "path_type": "hardlink",
+        "sha256": "8546ae0ec3c65b1267e199380ae6d9c259c75fbb95613c0d6e4867ffbc270738",
+        "sha256_in_prefix": "8546ae0ec3c65b1267e199380ae6d9c259c75fbb95613c0d6e4867ffbc270738",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/file/Win32.pm",
+        "path_type": "hardlink",
+        "sha256": "96a77377047be605debeeed690a6d0cb694cfd836143cdafce082254b1786e9c",
+        "sha256_in_prefix": "96a77377047be605debeeed690a6d0cb694cfd836143cdafce082254b1786e9c",
+        "size_in_bytes": 1757
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/ftp.pm",
+        "path_type": "hardlink",
+        "sha256": "8d5cc407ced455949ff90d22055af99b68c4bee2d368abb04147407fda3d8bb5",
+        "sha256_in_prefix": "8d5cc407ced455949ff90d22055af99b68c4bee2d368abb04147407fda3d8bb5",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/gopher.pm",
+        "path_type": "hardlink",
+        "sha256": "7f07b0ad0c544896cd4d81928f0c8fab6c651d778787f73327df053fa7a0989a",
+        "sha256_in_prefix": "7f07b0ad0c544896cd4d81928f0c8fab6c651d778787f73327df053fa7a0989a",
+        "size_in_bytes": 2428
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/http.pm",
+        "path_type": "hardlink",
+        "sha256": "07fb32c71e988d9c3ad6f5b67c41f7d8bc6d620c28884be7e16546602887bb00",
+        "sha256_in_prefix": "07fb32c71e988d9c3ad6f5b67c41f7d8bc6d620c28884be7e16546602887bb00",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/https.pm",
+        "path_type": "hardlink",
+        "sha256": "96271c223e6e42ad663f27ef883bb58d8a3ecc1b5ead1f62300ec0b900106cfd",
+        "sha256_in_prefix": "96271c223e6e42ad663f27ef883bb58d8a3ecc1b5ead1f62300ec0b900106cfd",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/ldap.pm",
+        "path_type": "hardlink",
+        "sha256": "1e06061972ba2e2f2747a0d71d3d73201659de6525a70a27416495d0fc5ebb5d",
+        "sha256_in_prefix": "1e06061972ba2e2f2747a0d71d3d73201659de6525a70a27416495d0fc5ebb5d",
+        "size_in_bytes": 2924
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/ldapi.pm",
+        "path_type": "hardlink",
+        "sha256": "c3357ab5883c086cf8df57d477341f023048950a70202e1a0522425d304f1452",
+        "sha256_in_prefix": "c3357ab5883c086cf8df57d477341f023048950a70202e1a0522425d304f1452",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/ldaps.pm",
+        "path_type": "hardlink",
+        "sha256": "6bb49f9ddcea2dc63dbb4563db35f2063c84f44aa39a1ce550d0004cf79cbff4",
+        "sha256_in_prefix": "6bb49f9ddcea2dc63dbb4563db35f2063c84f44aa39a1ce550d0004cf79cbff4",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/mailto.pm",
+        "path_type": "hardlink",
+        "sha256": "bcd85800c0930670b22ffaf3be726163441de2433a2282a2eb54d7a4b1fdfde5",
+        "sha256_in_prefix": "bcd85800c0930670b22ffaf3be726163441de2433a2282a2eb54d7a4b1fdfde5",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/mms.pm",
+        "path_type": "hardlink",
+        "sha256": "ad37243bd23fdbc318a3290897bc37c304aaf64423c6ba34f2f7ede9d205efe6",
+        "sha256_in_prefix": "ad37243bd23fdbc318a3290897bc37c304aaf64423c6ba34f2f7ede9d205efe6",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/news.pm",
+        "path_type": "hardlink",
+        "sha256": "e407a1ca3f44df1283e758fdf3aeedfa8f70117abbb36315f2d68822ec5b3331",
+        "sha256_in_prefix": "e407a1ca3f44df1283e758fdf3aeedfa8f70117abbb36315f2d68822ec5b3331",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/nntp.pm",
+        "path_type": "hardlink",
+        "sha256": "58e4fff6d4c4f4afd90c7c654dd08cb9dddbc38806a2f9ccaff58420ea05357e",
+        "sha256_in_prefix": "58e4fff6d4c4f4afd90c7c654dd08cb9dddbc38806a2f9ccaff58420ea05357e",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/nntps.pm",
+        "path_type": "hardlink",
+        "sha256": "fd5c0764442d4bf01391e3f863094086016928f65283d21c098d8ed99d5d2032",
+        "sha256_in_prefix": "fd5c0764442d4bf01391e3f863094086016928f65283d21c098d8ed99d5d2032",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/pop.pm",
+        "path_type": "hardlink",
+        "sha256": "16750b1068de851b4903e697277a63a5dac54477f749e2c75ec8ce0e20d58cd8",
+        "sha256_in_prefix": "16750b1068de851b4903e697277a63a5dac54477f749e2c75ec8ce0e20d58cd8",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/rlogin.pm",
+        "path_type": "hardlink",
+        "sha256": "40748839fee6453d6248c51f0cab59b38dd83d2e8b327ac3c30821832d057343",
+        "sha256_in_prefix": "40748839fee6453d6248c51f0cab59b38dd83d2e8b327ac3c30821832d057343",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/rsync.pm",
+        "path_type": "hardlink",
+        "sha256": "56c111f832a36dae93a597b7787ce7b8f923bd2587d912aa11e47a5b4dfe3da1",
+        "sha256_in_prefix": "56c111f832a36dae93a597b7787ce7b8f923bd2587d912aa11e47a5b4dfe3da1",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/rtsp.pm",
+        "path_type": "hardlink",
+        "sha256": "033966dcb80d37625590ce2d8b7e5befffb3764986cbd0ea95093cde995bec03",
+        "sha256_in_prefix": "033966dcb80d37625590ce2d8b7e5befffb3764986cbd0ea95093cde995bec03",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/rtspu.pm",
+        "path_type": "hardlink",
+        "sha256": "92b2d8c8af942d93fad5a9d945bf369e358c537e7ab65473cc35a61eddd7dfb5",
+        "sha256_in_prefix": "92b2d8c8af942d93fad5a9d945bf369e358c537e7ab65473cc35a61eddd7dfb5",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/sftp.pm",
+        "path_type": "hardlink",
+        "sha256": "9e89f9bc6786ece1ac34b8295a5219a31785fcb7fb6e465111242daf90cceb1c",
+        "sha256_in_prefix": "9e89f9bc6786ece1ac34b8295a5219a31785fcb7fb6e465111242daf90cceb1c",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/sip.pm",
+        "path_type": "hardlink",
+        "sha256": "cf9567999ce13d54d4fc4a47c8c63a08fcbab2c77ab5d0327a40eabe0269d068",
+        "sha256_in_prefix": "cf9567999ce13d54d4fc4a47c8c63a08fcbab2c77ab5d0327a40eabe0269d068",
+        "size_in_bytes": 1695
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/sips.pm",
+        "path_type": "hardlink",
+        "sha256": "50207b3c8a0a5050cc361fac8827f8d1a27b4b7de6f38e5aba6f3572a0b8c388",
+        "sha256_in_prefix": "50207b3c8a0a5050cc361fac8827f8d1a27b4b7de6f38e5aba6f3572a0b8c388",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/snews.pm",
+        "path_type": "hardlink",
+        "sha256": "34c20d1968d7638bfc5d0b85a753deb0140f73307c2d8a14a11b4e274162ea96",
+        "sha256_in_prefix": "34c20d1968d7638bfc5d0b85a753deb0140f73307c2d8a14a11b4e274162ea96",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/ssh.pm",
+        "path_type": "hardlink",
+        "sha256": "fed5c928d14287ef69db38e5d42b56062c23706e9606e9ef4b57e9a686e77cb5",
+        "sha256_in_prefix": "fed5c928d14287ef69db38e5d42b56062c23706e9606e9ef4b57e9a686e77cb5",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/telnet.pm",
+        "path_type": "hardlink",
+        "sha256": "0f9c40650ad1f883203eaa706c54f5d01ea11afc4f76a3dbf93022bf3851f747",
+        "sha256_in_prefix": "0f9c40650ad1f883203eaa706c54f5d01ea11afc4f76a3dbf93022bf3851f747",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/tn3270.pm",
+        "path_type": "hardlink",
+        "sha256": "56ae52cb723b0a7db1ffb1558fb4b7a91208cb245d89d3c0f17e49901ae0c3e0",
+        "sha256_in_prefix": "56ae52cb723b0a7db1ffb1558fb4b7a91208cb245d89d3c0f17e49901ae0c3e0",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/urn.pm",
+        "path_type": "hardlink",
+        "sha256": "c7d6806efbc02afd535200074da316397de574c6a2754963ec40745a3caa488f",
+        "sha256_in_prefix": "c7d6806efbc02afd535200074da316397de574c6a2754963ec40745a3caa488f",
+        "size_in_bytes": 2175
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/urn/isbn.pm",
+        "path_type": "hardlink",
+        "sha256": "95f56e450856684dcfd0f084cf152a5c1979c5f7ee009eac8aa946466d2982c4",
+        "sha256_in_prefix": "95f56e450856684dcfd0f084cf152a5c1979c5f7ee009eac8aa946466d2982c4",
+        "size_in_bytes": 2532
+      },
+      {
+        "_path": "lib/perl5/site_perl/URI/urn/oid.pm",
+        "path_type": "hardlink",
+        "sha256": "ce0c63231a45c5edefde38afe842faad1bfb7b14f4dc82c5dcf6f4a8ff83aa17",
+        "sha256_in_prefix": "ce0c63231a45c5edefde38afe842faad1bfb7b14f4dc82c5dcf6f4a8ff83aa17",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "man/man3/URI.3",
+        "path_type": "hardlink",
+        "sha256": "06d046ca1827161f744ee4d105e217e8df784110dc7961a83505c6b0e04ec0d3",
+        "sha256_in_prefix": "06d046ca1827161f744ee4d105e217e8df784110dc7961a83505c6b0e04ec0d3",
+        "size_in_bytes": 40575
+      },
+      {
+        "_path": "man/man3/URI::Escape.3",
+        "path_type": "hardlink",
+        "sha256": "f954f2975db67ccb8804e8164a54abc00c75a0e60058bf63f64be17e5772719c",
+        "sha256_in_prefix": "f954f2975db67ccb8804e8164a54abc00c75a0e60058bf63f64be17e5772719c",
+        "size_in_bytes": 7997
+      },
+      {
+        "_path": "man/man3/URI::Heuristic.3",
+        "path_type": "hardlink",
+        "sha256": "f997a395a99db5868c37513d5ea8d74fcdfe7cc76b5a336a3b30a92a8217b845",
+        "sha256_in_prefix": "f997a395a99db5868c37513d5ea8d74fcdfe7cc76b5a336a3b30a92a8217b845",
+        "size_in_bytes": 5197
+      },
+      {
+        "_path": "man/man3/URI::QueryParam.3",
+        "path_type": "hardlink",
+        "sha256": "3c7a399d6575da6a3f8df80082e4b8b11a12fb72c85231c160f3f7b35c781194",
+        "sha256_in_prefix": "3c7a399d6575da6a3f8df80082e4b8b11a12fb72c85231c160f3f7b35c781194",
+        "size_in_bytes": 6650
+      },
+      {
+        "_path": "man/man3/URI::Split.3",
+        "path_type": "hardlink",
+        "sha256": "1c9c5d0825de3750f1d48c8c1d6cb81b39a8ac5d260f8af165c3782ca33ce669",
+        "sha256_in_prefix": "1c9c5d0825de3750f1d48c8c1d6cb81b39a8ac5d260f8af165c3782ca33ce669",
+        "size_in_bytes": 4056
+      },
+      {
+        "_path": "man/man3/URI::URL.3",
+        "path_type": "hardlink",
+        "sha256": "192b64d2b0962d4a44985daa43af8bb9e208b2073673a7060e086f92a3e4ea20",
+        "sha256_in_prefix": "192b64d2b0962d4a44985daa43af8bb9e208b2073673a7060e086f92a3e4ea20",
+        "size_in_bytes": 4531
+      },
+      {
+        "_path": "man/man3/URI::WithBase.3",
+        "path_type": "hardlink",
+        "sha256": "860136fd5e5783c9e73c69227e78ab7678051c472765b69f4af2ee2a7d3e3173",
+        "sha256_in_prefix": "860136fd5e5783c9e73c69227e78ab7678051c472765b69f4af2ee2a7d3e3173",
+        "size_in_bytes": 4246
+      },
+      {
+        "_path": "man/man3/URI::_punycode.3",
+        "path_type": "hardlink",
+        "sha256": "daad4205fff86cad6f0e431eb205ac3ad0ceba59f3c49ac96ecf196573cf342e",
+        "sha256_in_prefix": "daad4205fff86cad6f0e431eb205ac3ad0ceba59f3c49ac96ecf196573cf342e",
+        "size_in_bytes": 4740
+      },
+      {
+        "_path": "man/man3/URI::data.3",
+        "path_type": "hardlink",
+        "sha256": "e4e95f7a837512c86cae1c74105e7259016c42bfc6ce2a9559198e7cd8aa4866",
+        "sha256_in_prefix": "e4e95f7a837512c86cae1c74105e7259016c42bfc6ce2a9559198e7cd8aa4866",
+        "size_in_bytes": 4315
+      },
+      {
+        "_path": "man/man3/URI::file.3",
+        "path_type": "hardlink",
+        "sha256": "737476525a16736c0af893db3a9136936cf8f1d55d3b2ec85c89789e16f69584",
+        "sha256_in_prefix": "737476525a16736c0af893db3a9136936cf8f1d55d3b2ec85c89789e16f69584",
+        "size_in_bytes": 10642
+      },
+      {
+        "_path": "man/man3/URI::ldap.3",
+        "path_type": "hardlink",
+        "sha256": "d96d9ecd4134c11013c41b739ff59609789e787ef5151d907c7599346ec8ee0c",
+        "sha256_in_prefix": "d96d9ecd4134c11013c41b739ff59609789e787ef5151d907c7599346ec8ee0c",
+        "size_in_bytes": 5733
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a3b72a3936fac672fbf2159635cc0f3ec175bc448af50487990e06ca086fc706",
+  "size": 60776,
+  "subdir": "noarch",
+  "timestamp": 1657499649000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-uri-5.12-pl5321hdfd78af_0.tar.bz2",
+  "version": "5.12"
+}

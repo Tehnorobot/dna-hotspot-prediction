@@ -1,0 +1,94 @@
+{
+  "build": "pl5321hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<6.0a0 *_perl5",
+    "perl-business-isbn-data >=20191107"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-business-isbn-3.007-pl5321hdfd78af_0",
+  "files": [
+    "lib/perl5/5.32/site_perl/auto/Business/ISBN/.packlist",
+    "lib/perl5/site_perl/Business/ISBN.pm",
+    "lib/perl5/site_perl/Business/ISBN10.pm",
+    "lib/perl5/site_perl/Business/ISBN13.pm",
+    "man/man3/Business::ISBN.3",
+    "man/man3/Business::ISBN10.3",
+    "man/man3/Business::ISBN13.3"
+  ],
+  "fn": "perl-business-isbn-3.007-pl5321hdfd78af_0.tar.bz2",
+  "license": "artistic_2",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-business-isbn-3.007-pl5321hdfd78af_0",
+    "type": 1
+  },
+  "md5": "3cdaa3f73497365e08346443d81dac81",
+  "name": "perl-business-isbn",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-business-isbn-3.007-pl5321hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Business/ISBN/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-business-isbn_1644881778193/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "15a4bbc9f44515df6cf7f3353e376710e8be7291ab2d24a145077a7848dd22c4",
+        "sha256_in_prefix": "0383fb37d560bde49900e49f96de85aeb0b3e5693dc6ff5fbbc42643f1d0cab4",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN.pm",
+        "path_type": "hardlink",
+        "sha256": "ce64da322de9087c2320b17402a4fc9a1c2d908e0962b55d2389e060840b4f10",
+        "sha256_in_prefix": "ce64da322de9087c2320b17402a4fc9a1c2d908e0962b55d2389e060840b4f10",
+        "size_in_bytes": 21452
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN10.pm",
+        "path_type": "hardlink",
+        "sha256": "658bcef62b42d1d6e855c4a82c6cbc7b1f512e0ca55fc9fec0d028ef2fc6f518",
+        "sha256_in_prefix": "658bcef62b42d1d6e855c4a82c6cbc7b1f512e0ca55fc9fec0d028ef2fc6f518",
+        "size_in_bytes": 1839
+      },
+      {
+        "_path": "lib/perl5/site_perl/Business/ISBN13.pm",
+        "path_type": "hardlink",
+        "sha256": "e7b85cdf8877edc767286762cbfd8153cbde0faa5332ee70ef8be14b54ebb235",
+        "sha256_in_prefix": "e7b85cdf8877edc767286762cbfd8153cbde0faa5332ee70ef8be14b54ebb235",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "man/man3/Business::ISBN.3",
+        "path_type": "hardlink",
+        "sha256": "0c30f293d2c7b06daa34ac128df9619c5b893b886e21aa615bbaf3074a9886ec",
+        "sha256_in_prefix": "0c30f293d2c7b06daa34ac128df9619c5b893b886e21aa615bbaf3074a9886ec",
+        "size_in_bytes": 14677
+      },
+      {
+        "_path": "man/man3/Business::ISBN10.3",
+        "path_type": "hardlink",
+        "sha256": "459741b6bf3a27cb27ad1d063a85770d27192eb7b400d404a3a972e276b3bedb",
+        "sha256_in_prefix": "459741b6bf3a27cb27ad1d063a85770d27192eb7b400d404a3a972e276b3bedb",
+        "size_in_bytes": 2941
+      },
+      {
+        "_path": "man/man3/Business::ISBN13.3",
+        "path_type": "hardlink",
+        "sha256": "4a577daabfe7810f846371699ebdcafe219cad818acdbf784465b38dbbb2a709",
+        "sha256_in_prefix": "4a577daabfe7810f846371699ebdcafe219cad818acdbf784465b38dbbb2a709",
+        "size_in_bytes": 2945
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "331dde8a737328a6ebde035d3d5b7304f1fe0c4582caaf9050d2fa4220f7b6b3",
+  "size": 18078,
+  "subdir": "noarch",
+  "timestamp": 1644882032000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-business-isbn-3.007-pl5321hdfd78af_0.tar.bz2",
+  "version": "3.007"
+}

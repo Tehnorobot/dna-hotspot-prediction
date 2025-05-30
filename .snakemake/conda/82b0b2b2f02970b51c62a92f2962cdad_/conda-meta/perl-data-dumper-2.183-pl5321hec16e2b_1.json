@@ -1,0 +1,62 @@
+{
+  "build": "pl5321hec16e2b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/team_2/miniconda3/pkgs/perl-data-dumper-2.183-pl5321hec16e2b_1",
+  "files": [
+    "lib/perl5/5.32/site_perl/Data/Dumper.pm",
+    "lib/perl5/5.32/site_perl/auto/Data/Dumper/.packlist",
+    "lib/perl5/5.32/site_perl/auto/Data/Dumper/Dumper.so"
+  ],
+  "fn": "perl-data-dumper-2.183-pl5321hec16e2b_1.tar.bz2",
+  "license": "unknown",
+  "link": {
+    "source": "/home/team_2/miniconda3/pkgs/perl-data-dumper-2.183-pl5321hec16e2b_1",
+    "type": 1
+  },
+  "md5": "5c6e392bf221c457ac40be350cfb2b90",
+  "name": "perl-data-dumper",
+  "package_tarball_full_path": "/home/team_2/miniconda3/pkgs/perl-data-dumper-2.183-pl5321hec16e2b_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/Data/Dumper.pm",
+        "path_type": "hardlink",
+        "sha256": "78ad2bda4f0c169e654bc473f1bff69e1be0d97d01faf4ee681e37b02089ff52",
+        "sha256_in_prefix": "78ad2bda4f0c169e654bc473f1bff69e1be0d97d01faf4ee681e37b02089ff52",
+        "size_in_bytes": 46362
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Data/Dumper/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-data-dumper_1645511442700/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "b360a88f03f7de60fbe30a9b12560c759a9f37ec55993d536b4ae1b4e2354aad",
+        "sha256_in_prefix": "5f2048db78aa155096fb30de38bdd43c3e4af6ab3eeed0d9792a76953e813f76",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Data/Dumper/Dumper.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-data-dumper_1645511442700/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "c6372cd52368f0a9df408c8d80c3be5828204124be1c5590ba79c945e26e2aeb",
+        "sha256_in_prefix": "cd43744b7788a563298ab7aabf60869d6808917e62d3f40fa9df3a385e99e32f",
+        "size_in_bytes": 43320
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "abedbe52b2abab6b7831198d443d1e236bd72726fbac2858fcaa214c9883165a",
+  "size": 38490,
+  "subdir": "linux-64",
+  "timestamp": 1645511683000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-data-dumper-2.183-pl5321hec16e2b_1.tar.bz2",
+  "version": "2.183"
+}

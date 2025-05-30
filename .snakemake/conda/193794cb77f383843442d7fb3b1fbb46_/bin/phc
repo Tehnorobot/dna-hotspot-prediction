@@ -1,0 +1,10 @@
+#!/media/hdd/hackaton25/team2/pipeline/.snakemake/conda/193794cb77f383843442d7fb3b1fbb46_/bin/python3.13
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from pephubclient.__main__ import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

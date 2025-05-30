@@ -1,0 +1,11 @@
+prefix=/home/team_2/pipeline/.snakemake/conda/56019dc1cc9fddfe9c553a0170e39115_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libisal
+Description: Library for storage systems
+Version: 2.31.1
+Libs: -L${libdir} -lisal
+Libs.private:
+Cflags: -I${includedir}
